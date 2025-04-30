@@ -1,0 +1,10 @@
+command_id: 7E0.0132
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E8044132FB2B
+  expected_values:
+    EVAP_VP: -0.30925
+- response: 7E8044132FC70
+  expected_values:
+    EVAP_VP: -0.228

@@ -7,1972 +7,1864 @@ test_cases:
     7DC21E1000006000000
     7DC2200000000000000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010BB70000
     7DC214C000001000000
     7DC2200002222640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010C5500FF
     7DC21CB00FFFD000000
     7DC2200002C2C0A0000
     7DC2300004C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DBD1507
     7DC21300004E1E0E000
     7DC22FA00221F640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -819.2
+  expected_values: {}
+- response: |-
+    7DC101761010DC3FE03
+    7DC21680000000000FF
+    7DC22FD001F20640000
+    7DC2300006C00000000
+  expected_values: {}
 - response: |-
     7DC101761010DCB0000
     7DC211800FFFE000000
     7DC2200001F1F640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
+- response: |-
+    7DC101761010DCC0000
+    7DC211C00000A000000
+    7DC2200001E1E640000
+    7DC2300006C00000000
+  expected_values: {}
+- response: |-
+    7DC101761010DCCFE03
+    7DC216700FFF00000FF
+    7DC22FE001F1F640000
+    7DC2300006C00000000
+  expected_values: {}
+- response: |-
+    7DC101761010DCFFE03
+    7DC216700FFF00000FF
+    7DC22FD001F1F640000
+    7DC2300006C00000000
+  expected_values: {}
 - response: |-
     7DC101761010DD11708
     7DC2114000454E6E600
     7DC22D3002A29640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -665.6
+  expected_values: {}
 - response: |-
     7DC101761010DD200FF
     7DC21C8000003000000
     7DC2200001C1C640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DD2FF00
     7DC212A0000040000FF
     7DC22FC002323640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
+- response: |-
+    7DC101761010DD6FE03
+    7DC21690000020000FF
+    7DC22FE002020640000
+    7DC2300006C00000000
+  expected_values: {}
 - response: |-
     7DC101761010DD80000
     7DC2106000000000000
     7DC2200002424640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
+- response: |-
+    7DC101761010DD80000
+    7DC211900FFF0000000
+    7DC2200001E1F640000
+    7DC2300006C00000000
+  expected_values: {}
 - response: |-
     7DC101761010DDA06FF
     7DC21CD000014FFFF00
     7DC220E001B1B640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010DDCFF00
     7DC212A0000040000FF
     7DC22FD002323640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010DDD0000
     7DC210000FFFC000000
     7DC2200002525640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DDE0000
     7DC211800FFFD000000
     7DC2200002222640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
+- response: |-
+    7DC101761010DDE0000
+    7DC2138000005000000
+    7DC2200001D1D640000
+    7DC2300006C00000000
+  expected_values: {}
 - response: |-
     7DC101761010DDF1903
     7DC21F90001A0F2F200
     7DC226F002525640708
     7DC2300136C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -358.4
+  expected_values: {}
 - response: |-
     7DC101761010DE00400
     7DC2119000009FFFF00
     7DC220B002222640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010DE10000
     7DC211900FFFE000000
     7DC2200002121640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DE10000
     7DC212800FFF9000000
     7DC2200002323640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
+- response: |-
+    7DC101761010DE1FE03
+    7DC21690000020000FF
+    7DC22FD002020640000
+    7DC2300006C00000000
+  expected_values: {}
 - response: |-
     7DC101761010DE1FFFF
     7DC21D20000080000FF
     7DC22FD002020640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010DE30000
     7DC211800FFFE000000
     7DC2200002121640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DE40000
     7DC211800FFFD000000
     7DC2200002222640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DE40000
     7DC212A000004000000
     7DC2200002222640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DE40302
     7DC21BF0000520101FF
     7DC22E700282864012C
     7DC2300036C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010DE40900
     7DC211A000001000000
     7DC2209002727640BB8
     7DC23001F6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DE41502
     7DC21370001A1F8F800
     7DC2248002323640834
     7DC2300156C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -204.8
+  expected_values: {}
 - response: |-
     7DC101761010DE50000
     7DC211900FFFE000000
     7DC2200002222640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DE60000
     7DC211200FFF9000000
     7DC2200002020640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DE60000
     7DC211900FFFD000000
     7DC2200002020640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DE60000
     7DC211B00000F000000
     7DC2200002020640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DE600FF
     7DC21C800FFF9000000
     7DC2200001E1E640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DE600FF
     7DC21E500FFF9000000
     7DC2200002222640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DE70000
     7DC2106000000000000
     7DC2200002121640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DE70000
     7DC211200FFF9000000
     7DC2200002020640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DE70000
     7DC213B00000D000000
     7DC2200002222640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DE808FF
     7DC21FB000003FFFF00
     7DC220D002222640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010DE81906
     7DC21FB000167EDED00
     7DC229E0022216407D0
     7DC2300136C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -486.4
+  expected_values: {}
 - response: |-
     7DC101761010DE90000
     7DC212800FFF3000000
     7DC2200002323640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
+- response: |-
+    7DC101761010DE900FF
+    7DC21F0000003000000
+    7DC2200002222640000
+    7DC2300006C00000000
+  expected_values: {}
+- response: |-
+    7DC101761010DE900FF
+    7DC21F000FFF9000000
+    7DC2200002222640000
+    7DC2300006C00000000
+  expected_values: {}
+- response: |-
+    7DC101761010DE9FE03
+    7DC216700FFF10000FF
+    7DC22FD001F1F640000
+    7DC2300006C00000000
+  expected_values: {}
+- response: |-
+    7DC101761010DE9FFFF
+    7DC21F700000B0000FF
+    7DC22FB001E1E6400C8
+    7DC2300016C00000000
+  expected_values: {}
 - response: |-
     7DC101761010DEA00FF
     7DC21D100000F000000
     7DC2201001B1B640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DEA00FF
     7DC21ED000008000000
     7DC2200002425640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DEAF3FA
     7DC21B50000EA0303FF
     7DC22E0001A1A640708
     7DC2300116C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 102.3
+  expected_values: {}
 - response: |-
     7DC101761010DEB0000
     7DC211200FFF9000000
     7DC2200002121640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DEB0000
     7DC2113000001000000
     7DC2200001F1F640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DEB0000
     7DC212A000002000000
     7DC2200002323640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
+- response: |-
+    7DC101761010DEB00FF
+    7DC21B5000005000000
+    7DC2200001A1A640000
+    7DC2300006C00000000
+  expected_values: {}
 - response: |-
     7DC101761010DEB00FF
     7DC21C800FFF9000000
     7DC2200001D1D640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DEC0000
     7DC211300000A000000
     7DC2200001F1F640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DEC0000
     7DC211B000010000000
     7DC2200002121640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DEC0000
     7DC213900FFFB000000
     7DC2200002222640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
+- response: |-
+    7DC101761010DEC00FF
+    7DC21F000FFFA000000
+    7DC2200002222640000
+    7DC2300006C00000000
+  expected_values: {}
 - response: |-
     7DC101761010DECFFFF
     7DC21F000FFF8000000
     7DC2200002323640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
+- response: |-
+    7DC101761010DED0000
+    7DC210E00FFF1000000
+    7DC2200001E1E640000
+    7DC2300006C00000000
+  expected_values: {}
 - response: |-
     7DC101761010DED0000
     7DC211200FFF8000000
     7DC2200001E1E640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DED00FF
     7DC21C800FFF8000000
     7DC2200001C1C640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DED00FF
     7DC21EA00FFFD000000
     7DC2201002020641770
     7DC23003A6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DED0605
     7DC21C500FFFAFFFF00
     7DC220E002121640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010DED1006
     7DC21330000DFF4F400
     7DC225E0022226401F4
     7DC2300046C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -307.2
+  expected_values: {}
 - response: |-
     7DC101761010DEDF3FF
     7DC21CD00FFFC0505FF
     7DC22CF002525640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 153.5
+  expected_values: {}
 - response: |-
     7DC101761010DEDFBFF
     7DC21F900FFF60000FF
     7DC22F900232364012C
     7DC2300026C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
+- response: |-
+    7DC101761010DEE0000
+    7DC213B00000A000000
+    7DC2200001D1D640000
+    7DC2300006C00000000
+  expected_values: {}
 - response: |-
     7DC101761010DEE00FF
     7DC21B7000008000000
     7DC2200001B1B640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
+- response: |-
+    7DC101761010DEE00FF
+    7DC21F000FFFB000000
+    7DC2200002222640000
+    7DC2300006C00000000
+  expected_values: {}
+- response: |-
+    7DC101761010DEE00FF
+    7DC21F1000002000000
+    7DC2201002222640000
+    7DC2300006C00000000
+  expected_values: {}
 - response: |-
     7DC101761010DEE00FF
     7DC21F4000001000000
     7DC2201001F1F640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DEE0100
     7DC211700000B000000
     7DC2201002122640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DEEFE02
     7DC21AF0000000000FF
     7DC22FC002222640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010DEF00FF
     7DC214C000003000000
     7DC2200002121640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DEF00FF
     7DC21B0000004000000
     7DC2200002323640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DEF00FF
     7DC21C9000002000000
     7DC2200002020640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
+- response: |-
+    7DC101761010DEF00FF
+    7DC21F1000002000000
+    7DC2200002222640000
+    7DC2300006C00000000
+  expected_values: {}
+- response: |-
+    7DC101761010DEF1608
+    7DC218C000000EBEB00
+    7DC22AC001F1C640000
+    7DC2300006C00000000
+  expected_values: {}
 - response: |-
     7DC101761010DEF1701
     7DC21A20000A3F8F800
     7DC2242002222641068
     7DC23002A6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -204.8
+  expected_values: {}
 - response: |-
     7DC101761010DF00000
     7DC210000FFFE000000
     7DC2200002525640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF00000
     7DC212700FFF3000000
     7DC2200002323640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF00000
     7DC212A000005000000
     7DC2200002323640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF000FF
     7DC21CB00000A000000
     7DC2200001D1D640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF0FEFF
     7DC21F100FFFE0000FF
     7DC22FB002121640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010DF10000
     7DC2113000002000000
     7DC2200001C1C640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF10000
     7DC211400000A000000
     7DC2200001D1D640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF100FF
     7DC21FC00000E000000
     7DC2200002626640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF1F5FF
     7DC21B900FFBC0303FF
     7DC22EA002525640578
     7DC23000E6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 102.3
+  expected_values: {}
 - response: |-
     7DC101761010DF1FF00
     7DC212E0000020000FF
     7DC22FE001D1D640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010DF200FF
     7DC21D600FFF7000000
     7DC2200002222640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
+- response: |-
+    7DC101761010DF200FF
+    7DC21F0000002000000
+    7DC2200002222640000
+    7DC2300006C00000000
+  expected_values: {}
+- response: |-
+    7DC101761010DF200FF
+    7DC21F0000003000000
+    7DC2200002222640000
+    7DC2300006C00000000
+  expected_values: {}
+- response: |-
+    7DC101761010DF200FF
+    7DC21F1000003000000
+    7DC2200002222640000
+    7DC2300006C00000000
+  expected_values: {}
 - response: |-
     7DC101761010DF20200
     7DC2100000005000000
     7DC2201002322641068
     7DC2300286C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF20B00
     7DC2133000004FFFF00
     7DC220D002626640190
     7DC2300046C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010DF2F9FA
     7DC219C0001D60000FF
     7DC22FD002222640640
     7DC23000F6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010DF300FF
     7DC21C9000001000000
     7DC2200002020640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF300FF
     7DC21D7000000000000
     7DC2200002222640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
+- response: |-
+    7DC101761010DF300FF
+    7DC21F000FFFA000000
+    7DC2200002222640000
+    7DC2300006C00000000
+  expected_values: {}
+- response: |-
+    7DC101761010DF300FF
+    7DC21F3000014000000
+    7DC2200002222640000
+    7DC2300006C00000000
+  expected_values: {}
 - response: |-
     7DC101761010DF30700
     7DC210400000FFFFF00
     7DC220C002121640CE4
     7DC2300216C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010DF40000
     7DC21360000040000FF
     7DC22FE001E1E640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
+- response: |-
+    7DC101761010DF400FF
+    7DC21B5000005000000
+    7DC2200001A1A640000
+    7DC2300006C00000000
+  expected_values: {}
 - response: |-
     7DC101761010DF400FF
     7DC21C8000001000000
     7DC2200001E1E640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF400FF
     7DC21D9000008000000
     7DC2200002222640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
+- response: |-
+    7DC101761010DF400FF
+    7DC21F0000004000000
+    7DC2200002222640000
+    7DC2300006C00000000
+  expected_values: {}
 - response: |-
     7DC101761010DF41508
     7DC21370000D2F1F100
     7DC227E0021216404B0
     7DC23000D6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -384
+  expected_values: {}
 - response: |-
     7DC101761010DF4FE00
     7DC213200000C0000FF
     7DC22FD002627640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010DF4FEFE
     7DC218900014A000000
     7DC22020023236408FC
     7DC2300156C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF50000
     7DC210000FFFB000000
     7DC2200002525640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
+- response: |-
+    7DC101761010DF50000
+    7DC213B000009000000
+    7DC2200001D1D640000
+    7DC2300006C00000000
+  expected_values: {}
 - response: |-
     7DC101761010DF50000
     7DC214B00FFFA0000FF
     7DC22FE001F1F640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010DF500FF
     7DC21EC00000B000000
     7DC2209002121640F3C
     7DC2300286C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF50400
     7DC210000FFF0000000
     7DC2204002121641CE8
     7DC23004A6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF50B00
     7DC213100004EFDFD00
     7DC221D002422640190
     7DC2300036C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -76.8
+  expected_values: {}
 - response: |-
     7DC101761010DF50B01
     7DC216C00FFE5FEFE00
     7DC2212001D1D640B54
     7DC23001C6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -51.2
+  expected_values: {}
 - response: |-
     7DC101761010DF51302
     7DC217A000128F9F900
     7DC2234002424640578
     7DC23000F6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -179.2
+  expected_values: {}
 - response: |-
     7DC101761010DF5F3FF
     7DC21E600000E0303FF
     7DC22E5002424640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 102.3
+  expected_values: {}
 - response: |-
     7DC101761010DF5FA01
     7DC212400FEB60202FF
     7DC22F2002222640708
     7DC2300116C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 76.7
+  expected_values: {}
 - response: |-
     7DC101761010DF600FF
     7DC21D900FFFC000000
     7DC2200002A2A640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF60100
     7DC2135000003000000
     7DC2201001D1D640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF60802
     7DC21AF00FEB8000000
     7DC22030026266408FC
     7DC2300166C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF6F7FF
     7DC21DC00FFFC000000
     7DC22000027276409C4
     7DC23001B6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF6FBFF
     7DC21F20000030000FF
     7DC22F3002727641BBC
     7DC2300476C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010DF700FF
     7DC21D9000013000000
     7DC2200002222640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF700FF
     7DC21FA000008000000
     7DC2200002727640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF70400
     7DC216800000B0000FF
     7DC22FB002626640708
     7DC2300116C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010DF70700
     7DC210E000008000000
     7DC220000272764170C
     7DC23003A6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF70A00
     7DC2111000006FFFF00
     7DC220C00202164125C
     7DC23002F6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010DF7EBF3
     7DC21DC00FFDB1010FF
     7DC2278002524640708
     7DC2300126C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 435.1
+  expected_values: {}
 - response: |-
     7DC101761010DF7F6FF
     7DC21F900FFF60101FF
     7DC22F5002727640FA0
     7DC2300276C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010DF7F8FF
     7DC21C900FFF90101FF
     7DC22F7002020641C20
     7DC2300486C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010DF7FFFE
     7DC216D0000BBFEFE00
     7DC2212002322640708
     7DC2300106C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -51.2
+  expected_values: {}
 - response: |-
     7DC101761010DF80000
     7DC214800FFFA000000
     7DC2200001010640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF80601
     7DC21B400FFD70000FF
     7DC22FC00212164044C
     7DC23000B6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010DF8E8FE
     7DC21310000000808FF
     7DC22B9001E1D640F3C
     7DC2300276C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 230.3
+  expected_values: {}
 - response: |-
     7DC101761010DF8F3F0
     7DC21BB00FEEE1010FF
     7DC228B002623640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 435.1
+  expected_values: {}
 - response: |-
     7DC101761010DF8F4FE
     7DC217E0000150202FF
     7DC22F0002625641068
     7DC2300296C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 76.7
+  expected_values: {}
 - response: |-
     7DC101761010DF90000
     7DC210600FFFD0000FF
     7DC22F90021216402BC
     7DC2300076C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010DF90000
     7DC211200FFFE000000
     7DC2200001717640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF90000
     7DC214C00FFF80000FF
     7DC22FE002020640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010DF90001
     7DC210000FFEC0202FF
     7DC22EA002121640190
     7DC2300036C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 76.7
+  expected_values: {}
 - response: |-
     7DC101761010DF900FF
     7DC21FA00000A000000
     7DC2200002828640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF900FF
     7DC21FA000014000000
     7DC2200002222640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF90600
     7DC215D000004000000
     7DC220C002121641324
     7DC2300336C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DF90904
     7DC214300FE8AFFFF00
     7DC220D00242464076C
     7DC2300126C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010DF91304
     7DC21C5000009F9F900
     7DC22390029296403E8
     7DC23000A6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -179.2
+  expected_values: {}
 - response: |-
     7DC101761010DF9FCFF
     7DC21B000FFF7000000
     7DC22050021216410CC
     7DC23002B6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DFA00FF
     7DC21F1000028FFFF00
     7DC2208001212640DAC
     7DC2300226C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010DFA00FF
     7DC21F6000000000000
     7DC2200002727640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DFA0300
     7DC211600FFF9000000
     7DC2204002222640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DFA0700
     7DC213A00000AFFFF00
     7DC220B002423640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010DFA2201
     7DC2106000024F6F600
     7DC22590021216417D4
     7DC23003E6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -256
+  expected_values: {}
 - response: |-
     7DC101761010DFAE9F9
     7DC216900FEAD1010FF
     7DC227F002524640640
     7DC23000F6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 435.1
+  expected_values: {}
 - response: |-
     7DC101761010DFAFAFF
     7DC21E600FFF90000FF
     7DC22F9002121641644
     7DC2300396C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010DFAFBFF
     7DC21D90000070101FF
     7DC22F8002B2B640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010DFB0000
     7DC211300FFF00000FF
     7DC22F9002424640AF0
     7DC2300196C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
+- response: |-
+    7DC101761010DFB00FF
+    7DC21B5000004000000
+    7DC2200001919640000
+    7DC2300006C00000000
+  expected_values: {}
 - response: |-
     7DC101761010DFB00FF
     7DC21D600FFF8000000
     7DC2200002222640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DFB00FF
     7DC21ED000016FFFF00
     7DC2206002424640960
     7DC2300176C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010DFB05FF
     7DC21FD00FFF3000000
     7DC2207002323640E10
     7DC2300246C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DFB07FF
     7DC21F400005BFEFE00
     7DC220B002323640834
     7DC2300156C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -51.2
+  expected_values: {}
 - response: |-
     7DC101761010DFB0A00
     7DC211000FFFBFFFF00
     7DC220E001818641CE8
     7DC2300496C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010DFB110B
     7DC216000006BF8F800
     7DC223F0026256404B0
     7DC23000C6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -204.8
+  expected_values: {}
 - response: |-
     7DC101761010DFBF8FF
     7DC21F00000010101FF
     7DC22F500202064189C
     7DC23003F6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010DFBFAFF
     7DC21BE00FFFD0000FF
     7DC22FE0024246410CC
     7DC23002A6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010DFC0300
     7DC212F000000000000
     7DC2204002323640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DFC1108
     7DC21C6000044F5F500
     7DC225D002121640258
     7DC2300056C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -281.6
+  expected_values: {}
 - response: |-
     7DC101761010DFCF5FF
     7DC21F300FFFE0303FF
     7DC22E1001E1E640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 102.3
+  expected_values: {}
 - response: |-
     7DC101761010DFCF900
     7DC211700FFE80101FF
     7DC22F50023236415E0
     7DC2300386C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010DFCFF00
     7DC210A00FFF4000000
     7DC2200002323641AF4
     7DC2300466C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DFD00FF
     7DC21ED000003000000
     7DC2200002425640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DFD0500
     7DC210E000006000000
     7DC2200002222641068
     7DC23002B6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DFD0500
     7DC2113000000000000
     7DC2204001919640ED8
     7DC2300256C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DFD1207
     7DC217F000098F3F300
     7DC226A0014136402BC
     7DC2300066C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -332.8
+  expected_values: {}
 - response: |-
     7DC101761010DFD1300
     7DC214B000007FCFC00
     7DC22250021216424B8
     7DC23005D6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -102.4
+  expected_values: {}
 - response: |-
     7DC101761010DFDF6FF
     7DC21C300000D0101FF
     7DC22F1001616641CE8
     7DC2300496C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010DFDFEFF
     7DC21EA00000C000000
     7DC2203002323640708
     7DC2300116C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DFE00FF
     7DC21ED000010000000
     7DC2200002425640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DFE08FF
     7DC21F5000074FFFF00
     7DC220E001919640BB8
     7DC23001D6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010DFE0F03
     7DC211200FF6AFBFB00
     7DC2229002525640960
     7DC2300166C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -128
+  expected_values: {}
 - response: |-
     7DC101761010DFE1803
     7DC213C00007DF4F400
     7DC225E002525640B54
     7DC23001D6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -307.2
+  expected_values: {}
 - response: |-
     7DC101761010DFEEFFE
     7DC21D300FFB70505FF
     7DC22D7002727640BB8
     7DC23001F6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 153.5
+  expected_values: {}
 - response: |-
     7DC101761010DFEFD00
     7DC210500FFF20000FF
     7DC22FD001313641518
     7DC2300356C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010DFF0300
     7DC211900FFF3000000
     7DC2208002525642134
     7DC2300556C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DFF0400
     7DC210F000007000000
     7DC2206001717641C20
     7DC2300486C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DFF0600
     7DC213E000019000000
     7DC220F002626640258
     7DC2300056C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010DFFF1FF
     7DC21B40000080202FF
     7DC22E8002525641450
     7DC2300346C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 76.7
+  expected_values: {}
 - response: |-
     7DC101761010DFFF7FF
     7DC21DF00FFEA0101FF
     7DC22F3002121641F40
     7DC23004F6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010DFFF9FF
     7DC21ED0000030101FF
     7DC22F9002121641518
     7DC2300366C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010E0000FF
     7DC21EA000005FFFF00
     7DC220A002323640C1C
     7DC23001F6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010E000C01
     7DC216400015DFCFC00
     7DC221E0029286401F4
     7DC2300046C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -102.4
+  expected_values: {}
 - response: |-
     7DC101761010E00F2FF
     7DC216100FFF20202FF
     7DC22EC002424640960
     7DC2300176C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 76.7
+  expected_values: {}
 - response: |-
     7DC101761010E00F700
     7DC21070000030101FF
     7DC22F3002727641A2C
     7DC2300426C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010E00FDFF
     7DC21F4000000000000
     7DC2202002121640DAC
     7DC2300216C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E0100FF
     7DC21D800FFFD000000
     7DC2200002222640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E0100FF
     7DC21FC00FFF5000000
     7DC2202002020640514
     7DC23000D6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E010800
     7DC210000002AFFFF00
     7DC2207002222640C80
     7DC23001F6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010E01F4FD
     7DC219B00004F0202FF
     7DC22ED002322640960
     7DC2300176C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 76.7
+  expected_values: {}
 - response: |-
     7DC101761010E01F5FF
     7DC21C100FFA90202FF
     7DC22F2001111640834
     7DC2300146C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 76.7
+  expected_values: {}
 - response: |-
     7DC101761010E01F6FE
     7DC21200000920101FF
     7DC22F6002626640B54
     7DC23001C6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010E020000
     7DC21080000100000FF
     7DC22FE002222640898
     7DC2300166C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E020000
     7DC211800FFF5000000
     7DC2200002222640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E020100
     7DC210E0000050000FF
     7DC22FD002223641F40
     7DC23004F6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E020100
     7DC21100000100000FF
     7DC22F8002223640ED8
     7DC2300256C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E0201FF
     7DC21F200000A000000
     7DC2201002A2A64157C
     7DC2300386C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E020E00
     7DC217A000016FEFE00
     7DC22170022226405DC
     7DC23000E6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -51.2
+  expected_values: {}
 - response: |-
     7DC101761010E02E8FE
     7DC215A00FF750808FF
     7DC22BB002A2A640DAC
     7DC2300236C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 230.3
+  expected_values: {}
 - response: |-
     7DC101761010E030700
     7DC211C000015000000
     7DC2208001717640708
     7DC2300106C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E030A00
     7DC2120000004FFFF00
     7DC220C002323641324
     7DC2300306C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010E030F00
     7DC2138000014FEFE00
     7DC2217002A2A640B54
     7DC23001C6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -51.2
+  expected_values: {}
 - response: |-
     7DC101761010E03EEF9
     7DC21CC0000280606FF
     7DC22C9002222640960
     7DC2300186C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 179.1
+  expected_values: {}
 - response: |-
     7DC101761010E03F7FF
     7DC21EB0000040101FF
     7DC22F800272764170C
     7DC23003A6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010E03FE00
     7DC2103000008000000
     7DC2200001717641C20
     7DC2300476C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E03FE00
     7DC21470000000000FF
     7DC22FA001E1E640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E03FF00
     7DC210300FFF0000000
     7DC22000023236411F8
     7DC23002E6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E03FFFF
     7DC21FE00FFF90000FF
     7DC22FA002323641770
     7DC23003C6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E040100
     7DC21000000150000FF
     7DC22FE001616642008
     7DC2300526C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E040801
     7DC211A00FFEA0000FF
     7DC22FC002727640DAC
     7DC2300226C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E04F2FF
     7DC21C400FF860303FF
     7DC22E5002222640834
     7DC2300156C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 102.3
+  expected_values: {}
 - response: |-
     7DC101761010E04F2FF
     7DC21DA00FFE80101FF
     7DC22F2002626641F40
     7DC2300506C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010E04F6FF
     7DC21D600FFF60101FF
     7DC22F1001818641838
     7DC23003E6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010E04FBFF
     7DC21ED00FFF00101FF
     7DC22F8002323641BBC
     7DC2300476C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010E04FDFF
     7DC21F60000080000FF
     7DC22FE001515640A8C
     7DC23001B6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E04FF00
     7DC210C0000130000FF
     7DC22FA001F1F641E78
     7DC23004D6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E050300
     7DC210D00FFF00000FF
     7DC22F8002B2B640D48
     7DC2300226C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E051303
     7DC219F00FFC5F9F900
     7DC2235002626640C1C
     7DC23001F6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -179.2
+  expected_values: {}
 - response: |-
     7DC101761010E05FA00
     7DC210C00FFF20000FF
     7DC22F7002223641C84
     7DC2300486C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E0600FF
     7DC21DF00FFF6000000
     7DC2207002424641450
     7DC2300346C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E060200
     7DC21190000190000FF
     7DC22F1002525640BB8
     7DC23001E6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E0603FF
     7DC21E400FFF9000000
     7DC2201002626641770
     7DC23003D6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E060800
     7DC2129000004000000
     7DC2202002222641194
     7DC23002C6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E060DFF
     7DC21FC000034FEFE00
     7DC22160025256410CC
     7DC23002A6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -51.2
+  expected_values: {}
 - response: |-
     7DC101761010E06EFFF
     7DC21BB0000000404FF
     7DC22E0002424642134
     7DC2300546C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 127.9
+  expected_values: {}
 - response: |-
     7DC101761010E06F6FF
     7DC21010000720000FF
     7DC22F5002625640E74
     7DC2300256C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E06FFFF
     7DC21FB00FFF50000FF
     7DC22FD002121640CE4
     7DC2300206C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E0700FF
     7DC21D0000017FFFF00
     7DC220E002424640BB8
     7DC23001D6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010E07E9FA
     7DC21BF00FE2A0F0FFF
     7DC227D002222640640
     7DC2300106C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 409.5
+  expected_values: {}
 - response: |-
     7DC101761010E07F4FF
     7DC21D700FFF20202FF
     7DC22F0002020641E78
     7DC23004D6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 76.7
+  expected_values: {}
 - response: |-
     7DC101761010E07FCFF
     7DC21F400FFF60000FF
     7DC22FA002020641EDC
     7DC23004F6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E07FDFF
     7DC2188000014FFFF00
     7DC220D002727640578
     7DC23000E6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010E080900
     7DC212600001AFFFF00
     7DC220F00222264076C
     7DC2300146C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010E080B06
     7DC21C100FCC0FEFE00
     7DC2212002C2B6406A4
     7DC2300106C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -51.2
+  expected_values: {}
 - response: |-
     7DC101761010E080F0A
     7DC216600FC5BFCFC00
     7DC222C00282664044C
     7DC23000B6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -102.4
+  expected_values: {}
 - response: |-
     7DC101761010E081202
     7DC21C200FF87FBFB00
     7DC2235002121640AF0
     7DC23001C6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -128
+  expected_values: {}
 - response: |-
     7DC101761010E08FAFF
     7DC21F70000080000FF
     7DC22F8002020641D4C
     7DC23004B6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E08FBFF
     7DC21F70000000000FF
     7DC22FC0021216411F8
     7DC23002D6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E090000
     7DC211300FFE40101FF
     7DC22F90019186409C4
     7DC2300186C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010E0900FF
     7DC21EB00FFF4000000
     7DC220300242464157C
     7DC2300366C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E0900FF
     7DC21F7000004000000
     7DC22000021216411F8
     7DC23002E6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E090100
     7DC211A00FFE2000000
     7DC2200001516641BBC
     7DC2300466C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E09F6FF
     7DC21E900000D0101FF
     7DC22F5002425641DB0
     7DC23004C6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010E09FAFF
     7DC21F200FFF50000FF
     7DC22F900141464189C
     7DC23003D6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E09FD00
     7DC21000000040000FF
     7DC22FE002121642C24
     7DC2300706C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E0A0000
     7DC210300000C0000FF
     7DC22F6002121642C24
     7DC2300716C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E0A0000
     7DC2118000002000000
     7DC2200002424641C20
     7DC2300476C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E0A0200
     7DC2111000016000000
     7DC22060023246414B4
     7DC2300356C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E0A03FF
     7DC21FC0000010000FF
     7DC22FD002424641FA4
     7DC2300506C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E0A0A00
     7DC2121000003FFFF00
     7DC220B002626641DB0
     7DC23004C6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010E0A0C00
     7DC2115000000FEFE00
     7DC221000242464206C
     7DC2300536C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -51.2
+  expected_values: {}
 - response: |-
     7DC101761010E0AF6FF
     7DC21F300FFFD0101FF
     7DC22F0002020641EDC
     7DC23004F6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010E0AF6FF
     7DC21F500FFF90202FF
     7DC22EF0026266416A8
     7DC23003A6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 76.7
+  expected_values: {}
 - response: |-
     7DC101761010E0AFC00
     7DC210F0000000000FF
     7DC22FA002B2B641388
     7DC2300316C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E0AFCFF
     7DC21D4000006000000
     7DC2200002222640E74
     7DC2300256C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E0AFCFF
     7DC21DF00FFFD000000
     7DC2202002525641518
     7DC2300356C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E0AFD00
     7DC210900000F0000FF
     7DC22F8002424641770
     7DC23003B6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E0B0400
     7DC2100000015000000
     7DC22000024246422C4
     7DC2300586C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E0BECFF
     7DC219B00FFD10505FF
     7DC22D7002525641E78
     7DC23004D6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 153.5
+  expected_values: {}
 - response: |-
     7DC101761010E0BFAFF
     7DC21ED00FFF80000FF
     7DC22F8002020641D4C
     7DC23004A6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E0BFCFF
     7DC21EB000005000000
     7DC2200002626641BBC
     7DC2300466C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E0BFCFF
     7DC21F300FFF50000FF
     7DC22FB002121641004
     7DC2300286C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E0BFF00
     7DC21010000050000FF
     7DC22FB002B2B6415E0
     7DC2300366C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E0C00FF
     7DC21C7000004000000
     7DC2201001B1B640000
     7DC2300006C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E0C0400
     7DC2130000005000000
     7DC2205002B2B641CE8
     7DC2300496C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E0C0A00
     7DC211800FFF5FFFF00
     7DC220D002121641E78
     7DC23004D6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010E0CF1FF
     7DC21E200FFF60202FF
     7DC22EE002424641BBC
     7DC2300456C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 76.7
+  expected_values: {}
 - response: |-
     7DC101761010E0CF5FF
     7DC21C300FFFE0202FF
     7DC22F1002627641AF4
     7DC2300456C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 76.7
+  expected_values: {}
 - response: |-
     7DC101761010E0CF8FF
     7DC21FC00FFFB0101FF
     7DC22F60025256413EC
     7DC2300326C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010E0CFC00
     7DC21110000100000FF
     7DC22F9002222641900
     7DC23003F6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E0D0300
     7DC2100000012000000
     7DC22020023236417D4
     7DC23003C6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E0D0300
     7DC21130000020000FF
     7DC22FD002A2B641C20
     7DC2300476C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E0D03FF
     7DC21F500000A000000
     7DC220100252564206C
     7DC2300526C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E0E0100
     7DC2106000003000000
     7DC22020024246419C8
     7DC2300436C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E0E0100
     7DC210F00FFEC000000
     7DC2205002B2B6415E0
     7DC2300386C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E0E03FF
     7DC21DE000007000000
     7DC2206002121642BC0
     7DC2300716C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E0E0700
     7DC2103000006FFFF00
     7DC220A0022226419C8
     7DC2300416C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010E0E0900
     7DC2118000002000000
     7DC2204002424641EDC
     7DC23004F6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E0E0A00
     7DC210A000010FFFF00
     7DC220C00262664206C
     7DC2300526C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010E0EF8F3
     7DC21F00001100101FF
     7DC22F9001919640258
     7DC2300066C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010E0EF8FF
     7DC21F40000080101FF
     7DC22F5002121641068
     7DC23002A6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010E0EFCFF
     7DC21E900FFEA0101FF
     7DC22F4002121641EDC
     7DC23004E6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010E0F01FF
     7DC21EB00001B000000
     7DC2206002626641EDC
     7DC23004F6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E0F0300
     7DC2125000008FFFF00
     7DC2207002222641D4C
     7DC23004B6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010E0F0400
     7DC2102000000000000
     7DC22050021216413EC
     7DC2300326C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E0F0800
     7DC210600FFEEFFFF00
     7DC220C002121641D4C
     7DC23004B6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: -25.6
+  expected_values: {}
 - response: |-
     7DC101761010E0FF9FF
     7DC21FD0000020000FF
     7DC22FA002B2B641A2C
     7DC2300436C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E0FFAFF
     7DC21C60000010000FF
     7DC22F9001515641E14
     7DC23004C6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E10EDFF
     7DC21C00000010303FF
     7DC22E5002B2B6416A8
     7DC23003A6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 102.3
+  expected_values: {}
 - response: |-
     7DC101761010E10F0FE
     7DC21670000000404FF
     7DC22DE001818641004
     7DC2300296C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 127.9
+  expected_values: {}
 - response: |-
     7DC101761010E10FDFF
     7DC21FB0000050000FF
     7DC22FC002525641E78
     7DC23004E6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E110300
     7DC210800000F000000
     7DC2201002424642008
     7DC2300526C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E11F5FF
     7DC21E800FFE90101FF
     7DC22F2001616641B58
     7DC2300456C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010E11F7FF
     7DC21EB0000020101FF
     7DC22F2002222641838
     7DC23003F6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010E11FAFF
     7DC21E800FFFC0000FF
     7DC22FA0021216421FC
     7DC2300576C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E11FAFF
     7DC21EE00FFEE0101FF
     7DC22F600252564238C
     7DC23005A6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 51.1
+  expected_values: {}
 - response: |-
     7DC101761010E1200FF
     7DC21F30000020000FF
     7DC22FB0022226416A8
     7DC23003A6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
 - response: |-
     7DC101761010E130600
     7DC2115000013000000
     7DC2206001616641F40
     7DC23004F6C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 0
+  expected_values: {}
 - response: |-
     7DC101761010E13FBFF
     7DC21FA00FFF20000FF
     7DC22FA001515641F40
     7DC2300506C00000000
-  expected_values:
-    KIA_STEER_ANGLE: 25.5
+  expected_values: {}
