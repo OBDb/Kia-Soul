@@ -1,8 +1,8 @@
 { "commands": [
 { "hdr": "7C6", "rax": "7CE", "cmd": {"22": "B002"}, "freq": 1,
   "signals": [
-    {"id": "SOUL_FLI_VOL", "path": "Fuel",    "fmt": {"bix": 32, "len": 8, "max": 127.5, "div": 2,    "unit": "liters" }, "name": "Fuel level (volume)", "suggestedMetric": "fuelTankLevel"},
-    {"id": "SOUL_VPWR",    "path": "Battery", "fmt": {"bix": 40, "len": 8, "max": 18,    "div": 12.8, "unit": "volts"  }, "name": "12v battery voltage", "suggestedMetric": "starterBatteryVoltage"}
+    {"id": "SOUL_FLI_VOL", "path": "Fuel",    "fmt": {"bix": 32, "len": 8, "max": 127.5, "div": 2,    "nullmax": 127, "unit": "liters" }, "name": "Fuel level (volume)", "suggestedMetric": "fuelTankLevel"},
+    {"id": "SOUL_VPWR",    "path": "Battery", "fmt": {"bix": 40, "len": 8, "max": 18,    "div": 12.8,                 "unit": "volts"  }, "name": "12v battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
 { "hdr": "7D1", "rax": "7D9", "dbg": true, "cmd": {"21": "01"}, "freq": 0.25,
   "signals": [
