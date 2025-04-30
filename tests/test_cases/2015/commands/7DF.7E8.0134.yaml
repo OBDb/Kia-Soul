@@ -1,0 +1,493 @@
+command_id: 7DF.7E8.0134
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E806413400007FFF
+  expected_values: {}
+# TODO: Uncomment once 0134 is implemented in SAEJ1979.
+# - response: 7E806413400007FFF
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99994
+# - response: 7E80641346E9D7F69
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99078
+# - response: 7E806413471767F85
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99249
+# - response: 7E8064134719E7F87
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99261
+# - response: 7E8064134721E7F8C
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99292
+# - response: 7E806413472967F90
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99316
+# - response: 7E8064134733E7F97
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99359
+# - response: 7E806413473967F9A
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99377
+# - response: 7E806413475367FA8
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99463
+# - response: 7E806413475D67FAE
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.995
+# - response: 7E806413476BE7FB6
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99548
+# - response: 7E8064134775E7FBC
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99585
+# - response: 7E806413478267FC3
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99628
+# - response: 7E806413478367FC3
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99628
+# - response: 7E806413478467FC4
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99634
+# - response: 7E8064134784E7FC4
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99634
+# - response: 7E8064134786E7FC5
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.9964
+# - response: 7E806413478767FC5
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.9964
+# - response: 7E806413479BF7FD0
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99707
+# - response: 7E806413479EF7FD2
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99719
+# - response: 7E80641347A077FD2
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99719
+# - response: 7E80641347A277FD3
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99725
+# - response: 7E80641347A5F7FD5
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99738
+# - response: 7E80641347A977FD7
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.9975
+# - response: 7E80641347AB77FD8
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99756
+# - response: 7E80641347AE77FD9
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99762
+# - response: 7E80641347B2F7FDB
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99774
+# - response: 7E80641347B4F7FDC
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.9978
+# - response: 7E80641347B6F7FDD
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99786
+# - response: 7E80641347B977FDE
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99792
+# - response: 7E80641347BB77FDF
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99799
+# - response: 7E80641347C077FE1
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99811
+# - response: 7E80641347C177FE2
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99817
+# - response: 7E80641347C377FE3
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99823
+# - response: 7E80641347C677FE4
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99829
+# - response: 7E80641347C6F7FE4
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99829
+# - response: 7E80641347C877FE5
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99835
+# - response: 7E80641347CA77FE6
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99841
+# - response: 7E80641347CB77FE6
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99841
+# - response: 7E80641347CDF7FE8
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99854
+# - response: 7E80641347CFF7FE9
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.9986
+# - response: 7E80641347D0F7FE9
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.9986
+# - response: 7E80641347D177FE9
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.9986
+# - response: 7E80641347D4F7FEB
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99872
+# - response: 7E80641347D5F7FEB
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99872
+# - response: 7E80641347D6F7FEC
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99878
+# - response: 7E80641347D777FEC
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99878
+# - response: 7E80641347D877FEC
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99878
+# - response: 7E80641347D977FED
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99884
+# - response: 7E80641347DA77FED
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99884
+# - response: 7E80641347DAF7FED
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99884
+# - response: 7E80641347DB77FEE
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.9989
+# - response: 7E80641347DBF7FEE
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.9989
+# - response: 7E80641347DDF7FEF
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99896
+# - response: 7E80641347DF77FEF
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99896
+# - response: 7E80641347E077FF0
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99902
+# - response: 7E80641347E1F7FF0
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99902
+# - response: 7E80641347E377FF1
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99908
+# - response: 7E80641347E477FF1
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99908
+# - response: 7E80641347E4F7FF1
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99908
+# - response: 7E80641347E5F7FF2
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99915
+# - response: 7E80641347E6F7FF2
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99915
+# - response: 7E80641347E7F7FF2
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99915
+# - response: 7E80641347E8F7FF3
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99921
+# - response: 7E80641347E977FF3
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99921
+# - response: 7E80641347EAF7FF4
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99927
+# - response: 7E80641347EC77FF4
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99927
+# - response: 7E80641347ECF7FF5
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99933
+# - response: 7E80641347ED77FF5
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99933
+# - response: 7E80641347EE77FF5
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99933
+# - response: 7E80641347EEF7FF5
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99933
+# - response: 7E80641347F077FF6
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99939
+# - response: 7E80641347F0F7FF6
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99939
+# - response: 7E80641347F177FF6
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99939
+# - response: 7E80641347F277FF7
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99945
+# - response: 7E80641347F2F7FF7
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99945
+# - response: 7E80641347F3F7FF7
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99945
+# - response: 7E80641347F477FF7
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99945
+# - response: 7E80641347F4F7FF8
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99951
+# - response: 7E80641347F5F7FF8
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99951
+# - response: 7E80641347F677FF8
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99951
+# - response: 7E80641347F6F7FF8
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99951
+# - response: 7E80641347F7F7FF9
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99957
+# - response: 7E80641347F877FF9
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99957
+# - response: 7E80641347F8F7FF9
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99957
+# - response: 7E80641347F9F7FF9
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99957
+# - response: 7E80641347FA77FFA
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99963
+# - response: 7E80641347FB77FFA
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99963
+# - response: 7E80641347FBF7FFA
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99963
+# - response: 7E80641347FC77FFA
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99963
+# - response: 7E80641347FD77FFB
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99969
+# - response: 7E80641347FDF7FFB
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99969
+# - response: 7E80641347FE77FFB
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99969
+# - response: 7E80641347FF77FFB
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99969
+# - response: 7E80641347FFF7FFC
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99976
+# - response: 7E8064134800F7FFC
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99976
+# - response: 7E806413480177FFC
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99976
+# - response: 7E8064134801F7FFC
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99976
+# - response: 7E806413480277FFD
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99982
+# - response: 7E8064134802F7FFD
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99982
+# - response: 7E8064134803F7FFD
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99982
+# - response: 7E806413480477FFD
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99982
+# - response: 7E8064134804F7FFE
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99988
+# - response: 7E806413480577FFE
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99988
+# - response: 7E8064134806F7FFF
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99994
+# - response: 7E806413480777FFF
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99994
+# - response: 7E806413480877FFF
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99994
+# - response: 7E806413480977FFF
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 1.99994
+# - response: 7E806413480A78000
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E806413480B78000
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E806413480C78000
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: '7E806413481078001'
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: '7E806413481388002'
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: '7E806413481588002'
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: '7E806413481608003'
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: '7E806413481808003'
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E806413481B08004
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E806413481C08004
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E806413481D08004
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E806413481E08005
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E806413481F08005
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: '7E806413482108005'
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: '7E806413482308006'
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: '7E806413482608007'
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: '7E806413482708007'
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E806413482A08008
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E806413482B88008
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E806413482E88009
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E806413482F88009
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E80641348318800A
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E806413483B8800C
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E80641348418800E
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E80641348438800E
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E80641348478800F
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: '7E806413484888010'
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E806413485A08014
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E806413486E88019
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E80641348810801D
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E80641348850801F
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E806413488C88020
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: '7E806413489998023'
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E80641348A898027
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E806413497D28055
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: '7E806413499328059'
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E8064134FFFF81D8
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E8064134FFFF8260
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E8064134FFFF8261
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E8064134FFFF8263
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E8064134FFFF8266
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E8064134FFFF8268
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E8064134FFFF826E
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E8064134FFFF826F
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E8064134FFFF8270
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E8064134FFFF8271
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E8064134FFFF8272
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E8064134FFFF8273
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E8064134FFFF8274
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E8064134FFFF8275
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E8064134FFFF8276
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E8064134FFFF8279
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E8064134FFFF827D
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
+# - response: 7E8064134FFFF827E
+#   expected_values:
+#     KIA_SAE_LAMBDA_B1S1: 2
