@@ -712,6 +712,60 @@ test_cases:
     SOUL_VPWR: 13.75
 - response: |-
     7CE100A62B002C00000
+    7CE21004EB000000000
+  expected_values:
+    SOUL_FLI_VOL: 39
+    SOUL_VPWR: 13.75
+- response: |-
+    7CE100A62B002C00000
+    7CE210055AF00000000
+  expected_values:
+    SOUL_FLI_VOL: 42.5
+    SOUL_VPWR: 13.67188
+- response: |-
+    7CE100A62B002C00000
+    7CE21005AB100000000
+  expected_values:
+    SOUL_FLI_VOL: 45
+    SOUL_VPWR: 13.82812
+- response: |-
+    7CE100A62B002C00000
+    7CE21005BA900000000
+  expected_values:
+    SOUL_FLI_VOL: 45.5
+    SOUL_VPWR: 13.20312
+- response: |-
+    7CE100A62B002C00000
+    7CE21005DAE00000000
+  expected_values:
+    SOUL_FLI_VOL: 46.5
+    SOUL_VPWR: 13.59375
+- response: |-
+    7CE100A62B002C00000
+    7CE21005DAF00000000
+  expected_values:
+    SOUL_FLI_VOL: 46.5
+    SOUL_VPWR: 13.67188
+- response: |-
+    7CE100A62B002C00000
+    7CE21005DB000000000
+  expected_values:
+    SOUL_FLI_VOL: 46.5
+    SOUL_VPWR: 13.75
+- response: |-
+    7CE100A62B002C00000
+    7CE210060B000000000
+  expected_values:
+    SOUL_FLI_VOL: 48
+    SOUL_VPWR: 13.75
+- response: |-
+    7CE100A62B002C00000
+    7CE210062B000000000
+  expected_values:
+    SOUL_FLI_VOL: 49
+    SOUL_VPWR: 13.75
+- response: |-
+    7CE100A62B002C00000
     7CE210066AF00000000
   expected_values:
     SOUL_FLI_VOL: 51
