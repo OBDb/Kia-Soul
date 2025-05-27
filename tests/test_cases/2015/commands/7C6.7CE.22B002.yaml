@@ -1,12 +1,22 @@
 command_id: 7C6.7CE.22B002
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
+- response: |-
+    7CE100A62B002C00000
+    7CE210013B100000000
+  expected_values:
+    SOUL_FLI_VOL: 9.5
+    SOUL_VPWR: 13.82812
 - response: |-
     7CE100A62B002C00000
     7CE21001EB000000000
   expected_values:
     SOUL_FLI_VOL: 15
+    SOUL_VPWR: 13.75
+- response: |-
+    7CE100A62B002C00000
+    7CE21001FB000000000
+  expected_values:
+    SOUL_FLI_VOL: 15.5
     SOUL_VPWR: 13.75
 - response: |-
     7CE100A62B002C00000
@@ -16,18 +26,12 @@ test_cases:
     SOUL_VPWR: 13.67188
 - response: |-
     7CE100A62B002C00000
-    7CE21002FB000000000
-  expected_values:
-    SOUL_FLI_VOL: 23.5
-    SOUL_VPWR: 13.75
-- response: |-
-    7CE100A62B002C00000
     7CE210030AF00000000
   expected_values:
     SOUL_FLI_VOL: 24
     SOUL_VPWR: 13.67188
 - response: |-
     7CE100A62B002C00000
-    7CE2100FF9A00000000
+    7CE2100FF9900000000
   expected_values:
-    SOUL_VPWR: 12.03125
+    SOUL_VPWR: 11.95312

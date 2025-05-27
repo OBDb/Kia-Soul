@@ -1,10 +1,19 @@
 command_id: 7E0.0149
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: '7E803414949'
+- response: |-
+    01491
+    NO DATA
+    7E803414926
   expected_values:
-    APP_D: 28.62745
+    APP_D: 14.90196
+- response: '7E803414926'
+  expected_values:
+    APP_D: 14.90196
 - response: 7E8034149D6
   expected_values:
     APP_D: 83.92157
+- response: |-
+    > 7E0.7E8.0149
+    7E803414926
+  expected_values:
+    APP_D: 14.90196

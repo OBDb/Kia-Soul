@@ -1,7 +1,20 @@
 command_id: 7E0.019E
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: 7E804419E0049
   expected_values:
     EXH_RATE: 14.6
+- response: |-
+    > 7E0.7E8.019E
+    7E804419E003F
+  expected_values:
+    EXH_RATE: 12.6
+- response: |-
+    > 7E0.7E8.019E
+    7E804419E0047
+  expected_values:
+    EXH_RATE: 14.2
+- response: |-
+    > 7E0.7E8.019E
+    7E804419E005E
+  expected_values:
+    EXH_RATE: 18.8

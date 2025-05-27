@@ -1,7 +1,16 @@
 command_id: 7E0.0133
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: '7E803413364'
   expected_values:
     BARO: 100
+- response: |-
+    > 7E0.7E8.0133
+    7E803413364
+  expected_values:
+    BARO: 100
+- response: |-
+    NO DATA
+    > 7E0.7E8.0133
+    7E803413365
+  expected_values:
+    BARO: 101
