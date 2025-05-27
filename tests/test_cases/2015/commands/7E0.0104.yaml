@@ -1,6 +1,4 @@
 command_id: 7E0.0104
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: 7E80341044A
   expected_values:
@@ -14,6 +12,9 @@ test_cases:
 - response: 7E80341045E
   expected_values:
     LOAD_PCT: 36.86275
+- response: '7E803410469'
+  expected_values:
+    LOAD_PCT: 41.17647
 - response: 7E80341047D
   expected_values:
     LOAD_PCT: 49.01961

@@ -1,0 +1,26 @@
+command_id: 7A0.7A8.22C00B|fc=1
+test_cases:
+- response: |-
+    7A8101762C00BFFFF00
+    7A82100AB570100AA56
+    7A8220100A4520100AC
+    7A823510100
+  expected_values:
+    SOUL_TP_FL: 34.2
+    SOUL_TP_FR: 34
+    SOUL_TP_RL: 32.8
+    SOUL_TP_RR: 34.4
+- response: |-
+    NO DATA
+    > 7E0.7D8.2101
+    NO DATA
+    > 7A0.7A8.22C00B
+    7A8101762C00BFFFF00
+    7A82100AB570100AA56
+    7A8220100A4520100AC
+    7A823510100
+  expected_values:
+    SOUL_TP_FL: 34.2
+    SOUL_TP_FR: 34
+    SOUL_TP_RL: 32.8
+    SOUL_TP_RR: 34.4
