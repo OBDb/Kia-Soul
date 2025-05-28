@@ -57,6 +57,6 @@ test_cases:
 - response: |-
     NO DATA
     > 7E0.7E8.0105
-    7E803410584
+    7E803410585
   expected_values:
-    ECT: 92
+    ECT: 93

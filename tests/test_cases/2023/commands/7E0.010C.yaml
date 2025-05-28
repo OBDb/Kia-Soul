@@ -19,6 +19,13 @@ test_cases:
     > 7E0.7D8.2118
     NO DATA
     > 7E0.7E8.010C
+    7E804410C0000
+  expected_values:
+    RPM: 0
+- response: |-
+    > 7E0.7D8.2118
+    NO DATA
+    > 7E0.7E8.010C
     7E804410C0A64
   expected_values:
     RPM: 665
@@ -48,3 +55,9 @@ test_cases:
     7E804410C0000
   expected_values:
     RPM: 0
+- response: |-
+    NO DATA
+    > 7E0.7E8.010C
+    7E804410C0A98
+  expected_values:
+    RPM: 678
