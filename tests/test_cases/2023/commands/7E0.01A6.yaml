@@ -15,9 +15,9 @@ test_cases:
 - response: 7E80641A6000B9CFF
   expected_values:
     ODO: 76108.7
-- response: 7E80641A6000BBE08
+- response: 7E80641A6000BC16B
   expected_values:
-    ODO: 76954.4
+    ODO: 77041.1
 - response: |-
     > 7E0.7D8.2101
     NO DATA
@@ -68,9 +68,9 @@ test_cases:
     ODO: 76575.7
 - response: |-
     > 7E0.7E8.01A6
-    7E80641A6000BB368
+    7E80641A6000BC165
   expected_values:
-    ODO: 76682.4
+    ODO: 77040.5
 - response: |-
     NO DATA
     > 7E0.7E8.01A6
@@ -92,6 +92,6 @@ test_cases:
 - response: |-
     NO DATA
     > 7E0.7E8.01A6
-    7E80641A6000BB180
+    7E80641A6000BC031
   expected_values:
-    ODO: 76633.6
+    ODO: 77009.7

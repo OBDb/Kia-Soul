@@ -8,22 +8,22 @@ test_cases:
     SOUL_VPWR: 13.82812
 - response: |-
     7CE100A62B002C00000
-    7CE21001EB000000000
+    7CE210019B000000000
   expected_values:
-    SOUL_FLI_VOL: 15
+    SOUL_FLI_VOL: 12.5
     SOUL_VPWR: 13.75
+- response: |-
+    7CE100A62B002C00000
+    7CE21001DAF00000000
+  expected_values:
+    SOUL_FLI_VOL: 14.5
+    SOUL_VPWR: 13.67188
 - response: |-
     7CE100A62B002C00000
     7CE21001FB000000000
   expected_values:
     SOUL_FLI_VOL: 15.5
     SOUL_VPWR: 13.75
-- response: |-
-    7CE100A62B002C00000
-    7CE210022AF00000000
-  expected_values:
-    SOUL_FLI_VOL: 17
-    SOUL_VPWR: 13.67188
 - response: |-
     7CE100A62B002C00000
     7CE210030AF00000000
