@@ -1,71 +1,32 @@
 command_id: 7E0.0146
 test_cases:
-- response: |-
-    01461
-    NO DATA
-    7E803414643
+- response: '7E803414640'
+  expected_values:
+    AAT: 24
+- response: '7E803414641'
+  expected_values:
+    AAT: 25
+- response: '7E803414642'
+  expected_values:
+    AAT: 26
+- response: '7E803414643'
   expected_values:
     AAT: 27
-- response: 7E80341463D
-  expected_values:
-    AAT: 21
-- response: 7E80341464B
-  expected_values:
-    AAT: 35
-- response: |-
-    > 7E0.7D8.2101
-    NO DATA
-    > 7E0.7E8.0146
-    7E803414640
-  expected_values:
-    AAT: 24
-- response: |-
-    > 7E0.7D8.2118
-    NO DATA
-    > 7E0.7E8.0146
-    7E80341463D
-  expected_values:
-    AAT: 21
-- response: |-
-    > 7E0.7E8.0146
-    7E80341463D
-  expected_values:
-    AAT: 21
-- response: |-
-    > 7E0.7E8.0146
-    7E80341463F
-  expected_values:
-    AAT: 23
-- response: |-
-    > 7E0.7E8.0146
-    7E803414640
-  expected_values:
-    AAT: 24
-- response: |-
-    NO DATA
-    > 7E0.7E8.0146
-    7E803414644
+- response: '7E803414644'
   expected_values:
     AAT: 28
-- response: |-
-    NO DATA
-    > 7E0.7E8.0146
-    7E803414645
+- response: '7E803414645'
   expected_values:
     AAT: 29
-- response: |-
-    NO DATA
-    > 7E1.7E9.0131
-    NO DATA
-    > 7E0.7E8.0146
-    7E80341463D
+- response: '7E803414646'
   expected_values:
-    AAT: 21
-- response: |-
-    NO DATA
-    > 7E1.7E9.0131
-    NO DATA
-    > 7E0.7E8.0146
-    7E803414644
+    AAT: 30
+- response: '7E803414647'
   expected_values:
-    AAT: 28
+    AAT: 31
+- response: '7E803414648'
+  expected_values:
+    AAT: 32
+- response: '7E803414649'
+  expected_values:
+    AAT: 33

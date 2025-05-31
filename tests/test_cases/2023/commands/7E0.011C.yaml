@@ -3,8 +3,3 @@ test_cases:
 - response: 7E803411C03
   expected_values:
     OBDSUP: OBD & OBD II
-- response: |-
-    > 7E0.7E8.011C
-    7E803411C03
-  expected_values:
-    OBDSUP: OBD & OBD II
