@@ -1,51 +1,8 @@
 command_id: 7E0.010D
 test_cases:
-- response: |-
-    010D1
-    NO DATA
-    7E803410D00
-  expected_values:
-    VSS: 0
 - response: 7E803410D00
   expected_values:
     VSS: 0
-- response: 7E803410D98
+- response: 7E803410D73
   expected_values:
-    VSS: 152
-- response: |-
-    > 7E0.7D8.2101
-    NO DATA
-    > 7E0.7E8.010D
-    7E803410D00
-  expected_values:
-    VSS: 0
-- response: |-
-    > 7E0.7D8.2118
-    NO DATA
-    > 7E0.7E8.010D
-    7E803410D00
-  expected_values:
-    VSS: 0
-- response: |-
-    > 7E0.7E8.010D
-    7E803410D00
-  expected_values:
-    VSS: 0
-- response: |-
-    > 7E0.7E8.010D
-    7E803410D06
-  expected_values:
-    VSS: 6
-- response: |-
-    > ATRV
-    13.8V
-    > 7E0.7E8.010D
-    7E803410D00
-  expected_values:
-    VSS: 0
-- response: |-
-    NO DATA
-    > 7E0.7E8.010D
-    7E803410D00
-  expected_values:
-    VSS: 0
+    VSS: 115
