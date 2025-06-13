@@ -9,8 +9,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 68
+    SOUL_ATF_T: 68.0
     SOUL_VSS: 0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E921086C00000002FC
@@ -20,8 +21,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 42
+    SOUL_ATF_T: 42.0
     SOUL_VSS: 0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E92108F8000000088A
@@ -31,8 +33,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 51
+    SOUL_ATF_T: 51.0
     SOUL_VSS: 0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E92109140000000170
@@ -42,8 +45,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 49
+    SOUL_ATF_T: 49.0
     SOUL_VSS: 0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E921091C0D000007C8
@@ -53,8 +57,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 39
-    SOUL_VSS: 13
+    SOUL_ATF_T: 39.0
+    SOUL_VSS: 13.0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E92109480000000000
@@ -64,8 +69,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 97
+    SOUL_ATF_T: 97.0
     SOUL_VSS: 0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E921095800000001BE
@@ -75,8 +81,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 37
+    SOUL_ATF_T: 37.0
     SOUL_VSS: 0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E9210994000000042A
@@ -86,8 +93,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 58
+    SOUL_ATF_T: 58.0
     SOUL_VSS: 0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E9210A000000000000
@@ -97,8 +105,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 69
+    SOUL_ATF_T: 69.0
     SOUL_VSS: 0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E9210A6C040E0005CC
@@ -108,8 +117,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 50
-    SOUL_VSS: 4
+    SOUL_ATF_T: 50.0
+    SOUL_VSS: 4.0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E9210B0C0000000000
@@ -119,8 +129,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 100
+    SOUL_ATF_T: 100.0
     SOUL_VSS: 0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E9210C642200000E2C
@@ -130,8 +141,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 42
-    SOUL_VSS: 34
+    SOUL_ATF_T: 42.0
+    SOUL_VSS: 34.0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E9210C7821000013B0
@@ -141,8 +153,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 67
-    SOUL_VSS: 33
+    SOUL_ATF_T: 67.0
+    SOUL_VSS: 33.0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E9210D481500000C4A
@@ -152,8 +165,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 78
-    SOUL_VSS: 21
+    SOUL_ATF_T: 78.0
+    SOUL_VSS: 21.0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E9210D782600000FFA
@@ -163,8 +177,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 38
-    SOUL_VSS: 38
+    SOUL_ATF_T: 38.0
+    SOUL_VSS: 38.0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E9210F082400000F36
@@ -174,8 +189,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 53
-    SOUL_VSS: 36
+    SOUL_ATF_T: 53.0
+    SOUL_VSS: 36.0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E9210FF00F00000F86
@@ -185,8 +201,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 79
-    SOUL_VSS: 15
+    SOUL_ATF_T: 79.0
+    SOUL_VSS: 15.0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E921100412080010A4
@@ -196,8 +213,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 55
-    SOUL_VSS: 18
+    SOUL_ATF_T: 55.0
+    SOUL_VSS: 18.0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E9211080260F001042
@@ -207,8 +225,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 81
-    SOUL_VSS: 38
+    SOUL_ATF_T: 81.0
+    SOUL_VSS: 38.0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E92110940000000118
@@ -218,8 +237,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 17
+    SOUL_ATF_T: 17.0
     SOUL_VSS: 0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E921141C0000001392
@@ -229,8 +249,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 16
+    SOUL_ATF_T: 16.0
     SOUL_VSS: 0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E921217C4F60002196
@@ -240,8 +261,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 32
-    SOUL_VSS: 79
+    SOUL_ATF_T: 32.0
+    SOUL_VSS: 79.0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E9212F4C702D002F4C
@@ -251,8 +273,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 76
-    SOUL_VSS: 112
+    SOUL_ATF_T: 76.0
+    SOUL_VSS: 112.0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E9212FD87208003002
@@ -262,8 +285,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 84
-    SOUL_VSS: 114
+    SOUL_ATF_T: 84.0
+    SOUL_VSS: 114.0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E9213000712F00300C
@@ -273,8 +297,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 52
-    SOUL_VSS: 113
+    SOUL_ATF_T: 52.0
+    SOUL_VSS: 113.0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E92132307631003232
@@ -284,8 +309,9 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 80
-    SOUL_VSS: 118
+    SOUL_ATF_T: 80.0
+    SOUL_VSS: 118.0
+    SOUL_GEAR: null
 - response: |-
     7E9102E61A0EFBF0000
     7E92136B0813B0036A2
@@ -295,5 +321,6 @@ test_cases:
     7E92500000000000000
     7E92600000000000000
   expected_values:
-    SOUL_ATF_T: 78
-    SOUL_VSS: 129
+    SOUL_ATF_T: 78.0
+    SOUL_VSS: 129.0
+    SOUL_GEAR: null
