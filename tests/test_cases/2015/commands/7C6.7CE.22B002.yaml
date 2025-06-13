@@ -35,3 +35,4 @@ test_cases:
     7CE2100FF9900000000
   expected_values:
     SOUL_VPWR: 11.95312
+    SOUL_FLI_VOL: 127.5
