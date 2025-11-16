@@ -11,7 +11,7 @@
     {"id": "SOUL_FLI_VOL", "path": "Fuel",    "fmt": {"bix": 32, "len": 8, "max": 127.5, "div": 2,    "nullmax": 127, "unit": "liters" }, "name": "Fuel level (volume)", "suggestedMetric": "fuelTankLevel"},
     {"id": "SOUL_VPWR",    "path": "Battery", "fmt": {"bix": 40, "len": 8, "max": 18,    "div": 12.8,                 "unit": "volts"  }, "name": "12v battery voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
-{ "hdr": "7D1", "rax": "7D9", "cmd": {"21": "01"}, "freq": 0.25, "dbgfilter": { "to": 2010, "years": [2012, 2013, 2014, 2017, 2018], "from": 2020 },
+{ "hdr": "7D1", "rax": "7D9", "cmd": {"21": "01"}, "freq": 0.25, "dbgfilter": { "to": 2009, "years": [2012, 2013, 2014, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "SOUL_FL_VSS", "path": "Movement", "fmt": {"bix": 88,  "len": 8, "max": 127.5, "min": -127.5, "sign": true, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "SOUL_FR_VSS", "path": "Movement", "fmt": {"bix": 96,  "len": 8, "max": 127.5, "min": -127.5, "sign": true, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
