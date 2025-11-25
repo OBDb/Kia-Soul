@@ -139,6 +139,7 @@ unsupported_commands_by_ecu:
   "7D4":
   - 7D4.7DC.220101
   "7DF":
+  - 7DF.010C
   - 7DF.7E8.0167
   "7E0":
   - 7E0.7D8.2118:SOUL_CVVT_T
