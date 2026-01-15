@@ -10,6 +10,15 @@ test_cases:
     7E923AB000B0001FFC0
     7E924C0FF00AAAAAAAA
 - expected_values:
+    SOUL_ATF_T: 9
+    SOUL_VSS: 0
+  response: |-
+    7E9101E61A0FFFF0000
+    7E92101E00019000000
+    7E922000031000009E0
+    7E9237E000B0004FFC0
+    7E924C0FF00AAAAAAAA
+- expected_values:
     SOUL_ATF_T: 52
     SOUL_VSS: 0
   response: |-
