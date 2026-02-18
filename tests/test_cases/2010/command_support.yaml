@@ -33,10 +33,6 @@ supported_commands_by_ecu:
   - 0142:VPWR
   - 0143:LOAD_ABS
   - 0144:EQ_RAT
-  - 0145:TP_R
-  - 0146:AAT
-  - 014D:MIL_TIME
-  - 014E:CLR_TIME
 unsupported_commands_by_ecu:
   "7A0":
   - 7A0.7A8.22C00B|fc=1:SOUL_TP_FL,SOUL_TP_FR,SOUL_TP_RL,SOUL_TP_RR
