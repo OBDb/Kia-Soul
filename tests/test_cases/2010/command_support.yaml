@@ -33,6 +33,8 @@ supported_commands_by_ecu:
   - 0142:VPWR
   - 0143:LOAD_ABS
   - 0144:EQ_RAT
+  "7E1":
+  - 7E1.7E9.21A0:SOUL_ATF_T,SOUL_GEAR,SOUL_VSS
 unsupported_commands_by_ecu:
   "7A0":
   - 7A0.7A8.22C00B|fc=1:SOUL_TP_FL,SOUL_TP_FR,SOUL_TP_RL,SOUL_TP_RR
@@ -41,5 +43,3 @@ unsupported_commands_by_ecu:
   "7E0":
   - 7E0.7D8.2101:SOUL_MIS_1,SOUL_MIS_2,SOUL_MIS_3,SOUL_MIS_4
   - 7E0.7D8.2118:SOUL_CVVT_T
-  "7E1":
-  - 7E1.7E9.21A0:SOUL_ATF_T,SOUL_GEAR,SOUL_VSS
