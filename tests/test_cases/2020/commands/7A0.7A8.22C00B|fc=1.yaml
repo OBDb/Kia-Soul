@@ -54,6 +54,16 @@ test_cases:
     SOUL_TP_FL: 39.8
     SOUL_TP_FR: 40
     SOUL_TP_RL: 34.2
+    SOUL_TP_RR: 39.6
+  response: |-
+    7A8101762C00BFFFF00
+    7A82100C7530100C853
+    7A8220100AB500100C6
+    7A8234F0100AAAAAAAA
+- expected_values:
+    SOUL_TP_FL: 39.8
+    SOUL_TP_FR: 40
+    SOUL_TP_RL: 34.2
     SOUL_TP_RR: 39.8
   response: |-
     7A8101762C00BFFFF00
