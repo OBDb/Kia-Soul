@@ -8,6 +8,13 @@ test_cases:
     7CE21000CA900000000
     7CE2293190000000000
 - expected_values:
+    SOUL_FLI_VOL: 9.5
+    SOUL_VPWR: 13.59375
+  response: |-
+    7CE100F62B002D00000
+    7CE210013AE00000000
+    7CE22935E0000000000
+- expected_values:
     SOUL_FLI_VOL: 11
     SOUL_VPWR: 13.4375
   response: |-
