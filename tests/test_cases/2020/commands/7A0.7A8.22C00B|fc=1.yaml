@@ -82,6 +82,16 @@ test_cases:
     7A8233F0100AAAAAAAA
 - expected_values:
     SOUL_TP_FL: 37.4
+    SOUL_TP_FR: 39.4
+    SOUL_TP_RL: 32.6
+    SOUL_TP_RR: 38
+  response: |-
+    7A8101762C00BFFFF00
+    7A82100BB480100C54E
+    7A8220100A3490100BE
+    7A823490100AAAAAAAA
+- expected_values:
+    SOUL_TP_FL: 37.4
     SOUL_TP_FR: 38.4
     SOUL_TP_RL: 33
     SOUL_TP_RR: 38
