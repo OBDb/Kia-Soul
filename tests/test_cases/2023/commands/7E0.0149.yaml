@@ -1,0 +1,14 @@
+command_id: 7E0.0149
+test_cases:
+- expected_values:
+    APP_D: 14.90196
+  response: |-
+    01491
+    NO DATA
+    7E803414926
+- expected_values:
+    APP_D: 14.90196
+  response: '7E803414926'
+- expected_values:
+    APP_D: 36.86275
+  response: 7E80341495E
