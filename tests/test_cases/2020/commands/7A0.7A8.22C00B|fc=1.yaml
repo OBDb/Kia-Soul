@@ -1,6 +1,16 @@
 command_id: 7A0.7A8.22C00B|fc=1
 test_cases:
 - expected_values:
+    SOUL_TP_FL: 34.2
+    SOUL_TP_FR: 35
+    SOUL_TP_RL: 30.4
+    SOUL_TP_RR: 34.8
+  response: |-
+    7A8101762C00BFFFF00
+    7A82100AB410100AF43
+    7A822010098430100AE
+    7A823410100AAAAAAAA
+- expected_values:
     SOUL_TP_FL: 34.4
     SOUL_TP_FR: 35.4
     SOUL_TP_RL: 30.4
@@ -10,16 +20,6 @@ test_cases:
     7A82100AC380100B13C
     7A8220100983B0100AF
     7A823390100AAAAAAAA
-- expected_values:
-    SOUL_TP_FL: 34.8
-    SOUL_TP_FR: 35
-    SOUL_TP_RL: 30.6
-    SOUL_TP_RR: 35.4
-  response: |-
-    7A8101762C00BFFFF00
-    7A82100AE3B0100AF3B
-    7A8220100993C0100B1
-    7A8233B0100AAAAAAAA
 - expected_values:
     SOUL_TP_FL: 34.8
     SOUL_TP_FR: 35
