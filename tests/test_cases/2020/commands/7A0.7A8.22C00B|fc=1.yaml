@@ -5,6 +5,10 @@ test_cases:
     SOUL_TP_FR: 32.2
     SOUL_TP_RL: 28
     SOUL_TP_RR: 32.6
+    SOUL_TT_FL: 10
+    SOUL_TT_FR: 11
+    SOUL_TT_RL: 11
+    SOUL_TT_RR: 11
   response: |-
     7A8101762C00BFFFF00
     7A82100A03C0100A13D
@@ -15,6 +19,10 @@ test_cases:
     SOUL_TP_FR: 32.4
     SOUL_TP_RL: 28
     SOUL_TP_RR: 32.4
+    SOUL_TT_FL: 10
+    SOUL_TT_FR: 11
+    SOUL_TT_RL: 11
+    SOUL_TT_RR: 11
   response: |-
     7A8101762C00BFFFF00
     7A82100A03C0100A23D
@@ -25,6 +33,10 @@ test_cases:
     SOUL_TP_FR: 33
     SOUL_TP_RL: 28.6
     SOUL_TP_RR: 33.4
+    SOUL_TT_FL: 13
+    SOUL_TT_FR: 13
+    SOUL_TT_RL: 13
+    SOUL_TT_RR: 14
   response: |-
     7A8101762C00BFFFF00
     7A82100A43F0100A53F
@@ -35,6 +47,10 @@ test_cases:
     SOUL_TP_FR: 33.4
     SOUL_TP_RL: 28.8
     SOUL_TP_RR: 33.4
+    SOUL_TT_FL: 14
+    SOUL_TT_FR: 14
+    SOUL_TT_RL: 13
+    SOUL_TT_RR: 14
   response: |-
     7A8101762C00BFFFF00
     7A82100A5400100A740
@@ -45,6 +61,10 @@ test_cases:
     SOUL_TP_FR: 35.4
     SOUL_TP_RL: 30.4
     SOUL_TP_RR: 35
+    SOUL_TT_FL: 6
+    SOUL_TT_FR: 10
+    SOUL_TT_RL: 9
+    SOUL_TT_RR: 7
   response: |-
     7A8101762C00BFFFF00
     7A82100AC380100B13C
@@ -55,6 +75,10 @@ test_cases:
     SOUL_TP_FR: 35.2
     SOUL_TP_RL: 30.4
     SOUL_TP_RR: 35.2
+    SOUL_TT_FL: 13
+    SOUL_TT_FR: 14
+    SOUL_TT_RL: 15
+    SOUL_TT_RR: 14
   response: |-
     7A8101762C00BFFFF00
     7A82100AE3F0100B040
@@ -65,6 +89,10 @@ test_cases:
     SOUL_TP_FR: 35.8
     SOUL_TP_RL: 30.6
     SOUL_TP_RR: 35.2
+    SOUL_TT_FL: 13
+    SOUL_TT_FR: 15
+    SOUL_TT_RL: 15
+    SOUL_TT_RR: 13
   response: |-
     7A8101762C00BFFFF00
     7A82100AE3F0100B341
@@ -75,6 +103,10 @@ test_cases:
     SOUL_TP_FR: 36.8
     SOUL_TP_RL: 33.6
     SOUL_TP_RR: 38.8
+    SOUL_TT_FL: 17
+    SOUL_TT_FR: 23
+    SOUL_TT_RL: 31
+    SOUL_TT_RR: 31
   response: |-
     7A8101762C00BFFFF00
     7A82100B2430100B849
@@ -85,6 +117,10 @@ test_cases:
     SOUL_TP_FR: 39.4
     SOUL_TP_RL: 33.8
     SOUL_TP_RR: 39
+    SOUL_TT_FL: 25
+    SOUL_TT_FR: 40
+    SOUL_TT_RL: 39
+    SOUL_TT_RR: 38
   response: |-
     7A8101762C00BFFFF00
     7A82100B44B0200C55A
@@ -95,6 +131,10 @@ test_cases:
     SOUL_TP_FR: 38
     SOUL_TP_RL: 32.6
     SOUL_TP_RR: 37.6
+    SOUL_TT_FL: 30
+    SOUL_TT_FR: 30
+    SOUL_TT_RL: 29
+    SOUL_TT_RR: 27
   response: |-
     7A8101762C00BFFFF00
     7A82100BC500200BE50
@@ -105,6 +145,10 @@ test_cases:
     SOUL_TP_FR: 40.8
     SOUL_TP_RL: 35.6
     SOUL_TP_RR: 40.6
+    SOUL_TT_FL: 45
+    SOUL_TT_FR: 46
+    SOUL_TT_RL: 45
+    SOUL_TT_RR: 42
   response: |-
     7A8101762C00BFFFF00
     7A82100CA5F0100CC60
@@ -115,6 +159,10 @@ test_cases:
     SOUL_TP_FR: 41.2
     SOUL_TP_RL: 35.6
     SOUL_TP_RR: 41
+    SOUL_TT_FL: 46
+    SOUL_TT_FR: 45
+    SOUL_TT_RL: 44
+    SOUL_TT_RR: 43
   response: |-
     7A8101762C00BFFFF00
     7A82100CE600100CE5F
@@ -125,6 +173,10 @@ test_cases:
     SOUL_TP_FR: 41.4
     SOUL_TP_RL: 35.6
     SOUL_TP_RR: 41
+    SOUL_TT_FL: 46
+    SOUL_TT_FR: 46
+    SOUL_TT_RL: 44
+    SOUL_TT_RR: 43
   response: |-
     7A8101762C00BFFFF00
     7A82100CE600100CF60
@@ -135,6 +187,10 @@ test_cases:
     SOUL_TP_FR: 41.2
     SOUL_TP_RL: 35.8
     SOUL_TP_RR: 41
+    SOUL_TT_FL: 47
+    SOUL_TT_FR: 46
+    SOUL_TT_RL: 44
+    SOUL_TT_RR: 43
   response: |-
     7A8101762C00BFFFF00
     7A82100CE610100CE60
@@ -145,6 +201,10 @@ test_cases:
     SOUL_TP_FR: 41.6
     SOUL_TP_RL: 35.8
     SOUL_TP_RR: 41
+    SOUL_TT_FL: 47
+    SOUL_TT_FR: 47
+    SOUL_TT_RL: 45
+    SOUL_TT_RR: 44
   response: |-
     7A8101762C00BFFFF00
     7A82100CE610100D061
@@ -155,6 +215,10 @@ test_cases:
     SOUL_TP_FR: 41.4
     SOUL_TP_RL: 35.8
     SOUL_TP_RR: 41
+    SOUL_TT_FL: 47
+    SOUL_TT_FR: 47
+    SOUL_TT_RL: 45
+    SOUL_TT_RR: 44
   response: |-
     7A8101762C00BFFFF00
     7A82100CF610100CF61
@@ -165,6 +229,10 @@ test_cases:
     SOUL_TP_FR: 41.4
     SOUL_TP_RL: 35.6
     SOUL_TP_RR: 41
+    SOUL_TT_FL: 46
+    SOUL_TT_FR: 45
+    SOUL_TT_RL: 44
+    SOUL_TT_RR: 43
   response: |-
     7A8101762C00BFFFF00
     7A82100D0600100CF5F

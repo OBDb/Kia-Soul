@@ -5,6 +5,10 @@ test_cases:
     SOUL_TP_FR: 37.2
     SOUL_TP_RL: 32.2
     SOUL_TP_RR: 31.4
+    SOUL_TT_FL: 26
+    SOUL_TT_FR: 26
+    SOUL_TT_RL: 24
+    SOUL_TT_RR: 24
   response: |-
     7A8101762C00BFFFF00
     7A82100BE4C0100BA4C
@@ -15,6 +19,10 @@ test_cases:
     SOUL_TP_FR: 37.2
     SOUL_TP_RL: 32.2
     SOUL_TP_RR: 31.4
+    SOUL_TT_FL: 26
+    SOUL_TT_FR: 26
+    SOUL_TT_RL: 24
+    SOUL_TT_RR: 25
   response: |-
     7A8101762C00BFFFF00
     7A82100BE4C0100BA4C
@@ -25,6 +33,10 @@ test_cases:
     SOUL_TP_FR: 40
     SOUL_TP_RL: 33.8
     SOUL_TP_RR: 31.4
+    SOUL_TT_FL: 26
+    SOUL_TT_FR: 42
+    SOUL_TT_RL: 37
+    SOUL_TT_RR: 25
   response: |-
     7A8101762C00BFFFF00
     7A82100BE4C0100C85C
@@ -35,6 +47,10 @@ test_cases:
     SOUL_TP_FR: 39.6
     SOUL_TP_RL: 33.8
     SOUL_TP_RR: 33.2
+    SOUL_TT_FL: 37
+    SOUL_TT_FR: 36
+    SOUL_TT_RL: 31
+    SOUL_TT_RR: 32
   response: |-
     7A8101762C00BFFFF00
     7A82100CC570100C656
@@ -45,6 +61,10 @@ test_cases:
     SOUL_TP_FR: 40
     SOUL_TP_RL: 33.8
     SOUL_TP_RR: 33.2
+    SOUL_TT_FL: 43
+    SOUL_TT_FR: 42
+    SOUL_TT_RL: 37
+    SOUL_TT_RR: 37
   response: |-
     7A8101762C00BFFFF00
     7A82100CC5D0100C85C
