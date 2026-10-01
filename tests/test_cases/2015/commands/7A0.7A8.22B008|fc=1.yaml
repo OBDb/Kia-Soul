@@ -1,0 +1,12 @@
+command_id: 7A0.7A8.22B008|fc=1
+test_cases:
+- expected_values:
+    SOUL_BRAKE_SW: 0
+  response: |-
+    7A8100B62B00830400F
+    7A821C000000000AAAA
+- expected_values:
+    SOUL_BRAKE_SW: 0
+  response: |-
+    7A8100B62B00830400F
+    7A821C000000002AAAA
