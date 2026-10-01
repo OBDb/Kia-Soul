@@ -14,11 +14,11 @@
     {"id": "SOUL_LONGITUDINAL_ACCELERATION", "path": "Orientation", "fmt": {"bix": 128, "len": 16, "blsb": true, "max": 4.1769, "min": -4.1769, "mul": 8.354, "div": 65535, "add": -4.177,                                 "unit": "metersPerSecondSquared" },                  "name": "Longitudinal acceleration"},
     {"id": "SOUL_YAW_RATE",                  "path": "Orientation", "fmt": {"bix": 144, "len": 8,  "max": 1.275,                                "div": 200,                                              "unit": "degrees" },                               "name": "Yaw rate"}
   ]},
-{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "dbg": true, "cmd": {"22": "B008"}, "freq": 1,
+{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "B008"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
     {"id": "SOUL_BRAKE_SW", "path": "Control", "fmt": {"bix": 51, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake switch"}
   ]},
-{ "hdr": "7A0", "rax": "7A8", "dbg": true, "cmd": {"22": "B009"}, "freq": 1,
+{ "hdr": "7A0", "rax": "7A8", "cmd": {"22": "B009"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
     {"id": "SOUL_PARKING_SENS_REAR",        "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "scalar" }, "name": "Parking sensor rear center left level"},
     {"id": "SOUL_PARKING_SENS_REAR_CENTER", "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 255, "unit": "scalar" }, "name": "Parking sensor rear center right level"}
@@ -117,7 +117,7 @@
   "signals": [
     {"id": "SOUL_MDPS_MOTOR_CURRENT", "path": "Engine", "fmt": {"bix": 88, "len": 8, "max": 127, "min": -128, "sign": true, "unit": "amps" }, "name": "Motor-driven power steering current"}
   ]},
-{ "hdr": "7D6", "rax": "7DE", "dbg": true, "cmd": {"21": "06"}, "freq": 15,
+{ "hdr": "7D6", "rax": "7DE", "cmd": {"21": "06"}, "freq": 15, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
     {"id": "SOUL_FL_TP", "path": "Tires",  "fmt": {            "len": 8, "max": 3.51,             "mul": 0.01378952,             "unit": "bars"    }, "name": "Front left tire pressure",     "suggestedMetric": "frontLeftTirePressure"},
     {"id": "SOUL_FL_TT", "path": "Engine", "fmt": {"bix": 8,   "len": 8, "max": 205,  "min": -50,                    "add": -50, "unit": "celsius" }, "name": "Front left tire temperature",  "suggestedMetric": "frontLeftTireTemperature"},
@@ -139,7 +139,7 @@
   "signals": [
     {"id": "SOUL_CVVT_T", "path": "Engine", "fmt": {"bix": 272, "len": 8, "max": 207, "min": -48, "add": -48, "unit": "celsius" }, "name": "CVVT temperature", "description": "Continuously variable valve timing temperature."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "00"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "00"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
     {"id": "SOUL_FUEL_CUT",               "path": "Fuel",     "fmt": {"bix": 88,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Fuel cut"},
     {"id": "SOUL_IDLE_CONTROL_MODE",      "path": "Engine",   "fmt": {"bix": 120, "len": 8, "max": 255, "unit": "scalar" }, "name": "Idle control mode"},
@@ -147,7 +147,7 @@
     {"id": "SOUL_COOLANT_FAN_HIGH_SPEED", "path": "Movement", "fmt": {"bix": 171, "len": 1, "max": 1,   "unit": "offon"  }, "name": "Coolant fan high speed"},
     {"id": "SOUL_KNOCK_DETECTED",         "path": "Engine",   "fmt": {"bix": 200, "len": 8, "max": 255, "unit": "scalar" }, "name": "Knock detected"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "02"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "02"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
     {"id": "SOUL_OXYGEN_SENSOR_11",            "path": "Engine",   "fmt": {"bix": 32,  "len": 8,  "max": 1.12,   "min": -0.2,      "mul": 0.00521,                 "add": -0.2, "unit": "volts"             },                     "name": "Oxygen sensor 1 bank 1"},
     {"id": "SOUL_OXYGEN_SENSOR_21",            "path": "Engine",   "fmt": {"bix": 48,  "len": 8,  "max": 1.12,   "min": -0.2,      "mul": 0.00521,                 "add": -0.2, "unit": "volts"             },                     "name": "Oxygen sensor 2 bank 1"},
@@ -158,16 +158,16 @@
     {"id": "SOUL_FUEL_INJECTION_TIMING_3",     "path": "Fuel",     "fmt": {"bix": 208, "len": 16, "blsb": true,  "max": 53686.272,                  "mul": 0.8192,                                          "unit": "milliseconds" },                                     "name": "Fuel injection timing #3"},
     {"id": "SOUL_FUEL_INJECTION_TIMING_4",     "path": "Fuel",     "fmt": {"bix": 224, "len": 16, "blsb": true,  "max": 53686.272,                  "mul": 0.8192,                                          "unit": "milliseconds" },                                     "name": "Fuel injection timing #4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "04"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "04"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
     {"id": "SOUL_COOLANT_FAN_HIGH_SPEED_1_8", "path": "Movement", "fmt": {"bix": 109, "len": 1, "max": 1, "unit": "offon" }, "name": "Coolant fan high speed, 1.8"},
     {"id": "SOUL_COOLANT_FAN_LOW_SPEED_1_8",  "path": "Movement", "fmt": {"bix": 110, "len": 1, "max": 1, "unit": "offon" }, "name": "Coolant fan low speed, 1.8"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "05"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "05"}, "freq": 0.25, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
     {"id": "SOUL_TQ_ACT", "path": "Engine", "fmt": {"bix": 64, "len": 16, "blsb": true, "max": 99.94, "mul": 61, "div": 40000, "unit": "percent" }, "name": "Torque, actual"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "08"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "08"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
     {"id": "SOUL_EMIS_MIS_TOT_1",     "path": "Engine", "fmt": {"bix": 128, "len": 16, "blsb": true, "max": 65535,                  "unit": "scalar" },                                      "name": "Emission relevant misfires total, cylinder 1"},
     {"id": "SOUL_EMIS_MIS_TOT_2",     "path": "Engine", "fmt": {"bix": 144, "len": 16, "blsb": true, "max": 65535,                  "unit": "scalar" },                                      "name": "Emission relevant misfires total, cylinder 2"},
@@ -185,21 +185,21 @@
     {"id": "SOUL_MIS_CURRENT_4",      "path": "Engine", "fmt": {"bix": 560, "len": 8,  "max": 255,                 "unit": "scalar" },               "name": "Misfires current, cylinder 4"},
     {"id": "SOUL_MIS_CURRENT_TOT",    "path": "Engine", "fmt": {"bix": 584, "len": 8,  "max": 255,                 "unit": "scalar" },               "name": "Misfires current total"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "0A"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "0A"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
     {"id": "SOUL_KNOCK_RETARD_CYL_1_ALT", "path": "Engine", "fmt": {"bix": 160, "len": 8, "max": 191.25, "div": 1.3333333333, "unit": "degrees" }, "name": "Knock retard cylinder 1, alternate"},
     {"id": "SOUL_KNOCK_RETARD_CYL_2_ALT", "path": "Engine", "fmt": {"bix": 168, "len": 8, "max": 191.25, "div": 1.3333333333, "unit": "degrees" }, "name": "Knock retard cylinder 2, alternate"},
     {"id": "SOUL_KNOCK_RETARD_CYL_3_ALT", "path": "Engine", "fmt": {"bix": 176, "len": 8, "max": 191.25, "div": 1.3333333333, "unit": "degrees" }, "name": "Knock retard cylinder 3, alternate"},
     {"id": "SOUL_KNOCK_RETARD_CYL_4_ALT", "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 191.25, "div": 1.3333333333, "unit": "degrees" }, "name": "Knock retard cylinder 4, alternate"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "0B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "0B"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
     {"id": "SOUL_DI_TIME_1", "path": "Engine", "fmt": {"bix": 32, "len": 16, "blsb": true, "max": 500, "mul": 100, "div": 13107, "unit": "milliseconds" }, "name": "Direct injection time 1"},
     {"id": "SOUL_DI_TIME_2", "path": "Engine", "fmt": {"bix": 48, "len": 16, "blsb": true, "max": 500, "mul": 100, "div": 13107, "unit": "milliseconds" }, "name": "Direct injection time 2"},
     {"id": "SOUL_DI_TIME_3", "path": "Engine", "fmt": {"bix": 64, "len": 16, "blsb": true, "max": 500, "mul": 100, "div": 13107, "unit": "milliseconds" }, "name": "Direct injection time 3"},
     {"id": "SOUL_DI_TIME_4", "path": "Engine", "fmt": {"bix": 80, "len": 16, "blsb": true, "max": 500, "mul": 100, "div": 13107, "unit": "milliseconds" }, "name": "Direct injection time 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "0D"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "0D"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
     {"id": "SOUL_MIS_CNT_EMIS_1", "path": "Engine.Misfires", "fmt": {"bix": 48,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Emission-relevant misfires, cylinder #1"},
     {"id": "SOUL_MIS_CNT_EMIS_2", "path": "Engine.Misfires", "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Emission-relevant misfires, cylinder #2"},
@@ -211,7 +211,7 @@
     {"id": "SOUL_MIS_CNT_4",      "path": "Engine.Misfires", "fmt": {"bix": 224, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires total counter, cylinder #4"},
     {"id": "SOUL_MIS_CNT_ALL",    "path": "Engine.Misfires", "fmt": {"bix": 432, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires total counter, all cylinders"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "0E"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "0E"}, "freq": 30, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
     {"id": "SOUL_ENG_RUN_TIME_TOT", "path": "Engine", "fmt": {"bix": 80, "len": 16, "blsb": true, "max": 393209.9999, "mul": 6, "unit": "minutes" }, "name": "Engine run time, total"}
   ]},
@@ -284,7 +284,7 @@
     {"id": "SOUL_MIS_CAT_3", "path": "Engine.Misfires", "fmt": {"bix": 192, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires harmful for catalyst cylinder 3"},
     {"id": "SOUL_MIS_CAT_4", "path": "Engine.Misfires", "fmt": {"bix": 208, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires harmful for catalyst cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "20"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "20"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2016 },
   "signals": [
     {"id": "SOUL_CAM_INT_POS_ACT",            "path": "Engine", "fmt": {"bix": 72,  "len": 8, "max": 155,              "mul": 3,  "div": 8,  "add": 60,  "unit": "degrees" }, "name": "Camshaft intake position, actual"},
     {"id": "SOUL_CAM_EXH_POS_ACT",            "path": "Engine", "fmt": {"bix": 80,  "len": 8, "max": -40, "min": -135, "mul": -3, "div": 8,  "add": -40, "unit": "degrees" }, "name": "Camshaft exhaust position, actual"},
