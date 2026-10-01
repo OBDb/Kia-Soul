@@ -2,6 +2,7 @@ command_id: 7C6.7CE.22B002
 test_cases:
 - expected_values:
     SOUL_FLI_VOL: 4
+    SOUL_ODO_MI: 39301
     SOUL_VPWR: 12.34375
   response: |-
     7CE100F62B002D00000
@@ -9,6 +10,7 @@ test_cases:
     7CE2299850000000000
 - expected_values:
     SOUL_FLI_VOL: 5.5
+    SOUL_ODO_MI: 39302
     SOUL_VPWR: 12.42188
   response: |-
     7CE100F62B002D00000
@@ -16,6 +18,7 @@ test_cases:
     7CE2299860000000000
 - expected_values:
     SOUL_FLI_VOL: 6.5
+    SOUL_ODO_MI: 42299
     SOUL_VPWR: 13.51562
   response: |-
     7CE100F62B002D00000
@@ -23,6 +26,7 @@ test_cases:
     7CE22A53B0000000000
 - expected_values:
     SOUL_FLI_VOL: 11
+    SOUL_ODO_MI: 37373
     SOUL_VPWR: 13.4375
   response: |-
     7CE100F62B002D00000
@@ -30,6 +34,7 @@ test_cases:
     7CE2291FD0000000000
 - expected_values:
     SOUL_FLI_VOL: 11
+    SOUL_ODO_MI: 37376
     SOUL_VPWR: 13.59375
   response: |-
     7CE100F62B002D00000
@@ -37,6 +42,7 @@ test_cases:
     7CE2292000000000000
 - expected_values:
     SOUL_FLI_VOL: 11.5
+    SOUL_ODO_MI: 37375
     SOUL_VPWR: 13.51562
   response: |-
     7CE100F62B002D00000
@@ -44,6 +50,7 @@ test_cases:
     7CE2291FF0000000000
 - expected_values:
     SOUL_FLI_VOL: 18
+    SOUL_ODO_MI: 39182
     SOUL_VPWR: 13.75
   response: |-
     7CE100F62B002D00000
@@ -51,6 +58,7 @@ test_cases:
     7CE22990E0000000000
 - expected_values:
     SOUL_FLI_VOL: 24
+    SOUL_ODO_MI: 39228
     SOUL_VPWR: 11.95312
   response: |-
     7CE100F62B002D00000
@@ -58,6 +66,7 @@ test_cases:
     7CE22993C0000000000
 - expected_values:
     SOUL_FLI_VOL: 31.5
+    SOUL_ODO_MI: 39160
     SOUL_VPWR: 13.75
   response: |-
     7CE100F62B002D00000
@@ -65,6 +74,7 @@ test_cases:
     7CE2298F80000000000
 - expected_values:
     SOUL_FLI_VOL: 48
+    SOUL_ODO_MI: 39867
     SOUL_VPWR: 12.96875
   response: |-
     7CE100F62B002D00000

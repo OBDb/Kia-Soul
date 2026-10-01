@@ -3,7 +3,7 @@ test_cases:
 - expected_values:
     SOUL_FL_VSS: 0
     SOUL_FR_VSS: 0
-    SOUL_RL_VSS: -2
+    SOUL_RL_VSS: 254
     SOUL_RR_VSS: 0
   response: |-
     7D910276101DFE3FF07
@@ -15,7 +15,7 @@ test_cases:
 - expected_values:
     SOUL_FL_VSS: 0
     SOUL_FR_VSS: 0
-    SOUL_RL_VSS: -2
+    SOUL_RL_VSS: 254
     SOUL_RR_VSS: 0
   response: |-
     7D910276101DFE3FF07
@@ -27,7 +27,7 @@ test_cases:
 - expected_values:
     SOUL_FL_VSS: 0
     SOUL_FR_VSS: 0
-    SOUL_RL_VSS: -2
+    SOUL_RL_VSS: 254
     SOUL_RR_VSS: 0
   response: |-
     7D910276101DFE3FF07
@@ -39,7 +39,7 @@ test_cases:
 - expected_values:
     SOUL_FL_VSS: 0
     SOUL_FR_VSS: 0
-    SOUL_RL_VSS: -2
+    SOUL_RL_VSS: 254
     SOUL_RR_VSS: 0
   response: |-
     7D910276101DFE3FF07
@@ -51,7 +51,7 @@ test_cases:
 - expected_values:
     SOUL_FL_VSS: 0
     SOUL_FR_VSS: 0
-    SOUL_RL_VSS: -2
+    SOUL_RL_VSS: 254
     SOUL_RR_VSS: 0
   response: |-
     7D910276101DFE3FF07
@@ -63,7 +63,7 @@ test_cases:
 - expected_values:
     SOUL_FL_VSS: 6
     SOUL_FR_VSS: 6
-    SOUL_RL_VSS: -2
+    SOUL_RL_VSS: 254
     SOUL_RR_VSS: 6
   response: |-
     7D910276101DFE3FF07
@@ -75,7 +75,7 @@ test_cases:
 - expected_values:
     SOUL_FL_VSS: 4
     SOUL_FR_VSS: 6
-    SOUL_RL_VSS: -2
+    SOUL_RL_VSS: 254
     SOUL_RR_VSS: 5
   response: |-
     7D910276101DFE3FF07
@@ -87,7 +87,7 @@ test_cases:
 - expected_values:
     SOUL_FL_VSS: 50
     SOUL_FR_VSS: 50
-    SOUL_RL_VSS: -2
+    SOUL_RL_VSS: 254
     SOUL_RR_VSS: 51
   response: |-
     7D910276101DFE3FF07
@@ -99,7 +99,7 @@ test_cases:
 - expected_values:
     SOUL_FL_VSS: 55
     SOUL_FR_VSS: 55
-    SOUL_RL_VSS: -2
+    SOUL_RL_VSS: 254
     SOUL_RR_VSS: 55
   response: |-
     7D910276101DFE3FF07
@@ -111,7 +111,7 @@ test_cases:
 - expected_values:
     SOUL_FL_VSS: 56
     SOUL_FR_VSS: 55
-    SOUL_RL_VSS: -2
+    SOUL_RL_VSS: 254
     SOUL_RR_VSS: 55
   response: |-
     7D910276101DFE3FF07
@@ -123,7 +123,7 @@ test_cases:
 - expected_values:
     SOUL_FL_VSS: 38
     SOUL_FR_VSS: 38
-    SOUL_RL_VSS: -2
+    SOUL_RL_VSS: 254
     SOUL_RR_VSS: 37
   response: |-
     7D910276101DFE3FF07
@@ -135,7 +135,7 @@ test_cases:
 - expected_values:
     SOUL_FL_VSS: 64
     SOUL_FR_VSS: 64
-    SOUL_RL_VSS: -2
+    SOUL_RL_VSS: 254
     SOUL_RR_VSS: 63
   response: |-
     7D910276101DFE3FF07
@@ -147,7 +147,7 @@ test_cases:
 - expected_values:
     SOUL_FL_VSS: 99
     SOUL_FR_VSS: 99
-    SOUL_RL_VSS: -2
+    SOUL_RL_VSS: 254
     SOUL_RR_VSS: 99
   response: |-
     7D910276101DFE3FF07
@@ -159,7 +159,7 @@ test_cases:
 - expected_values:
     SOUL_FL_VSS: 63
     SOUL_FR_VSS: 63
-    SOUL_RL_VSS: -2
+    SOUL_RL_VSS: 254
     SOUL_RR_VSS: 63
   response: |-
     7D910276101DFE3FF07
@@ -171,7 +171,7 @@ test_cases:
 - expected_values:
     SOUL_FL_VSS: 78
     SOUL_FR_VSS: 78
-    SOUL_RL_VSS: -2
+    SOUL_RL_VSS: 254
     SOUL_RR_VSS: 78
   response: |-
     7D910276101DFE3FF07
