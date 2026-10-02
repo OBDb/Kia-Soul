@@ -345,10 +345,10 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "E002"}, "freq": 5,
   "signals": [
-    {"id": "SOUL_INJ_DUR_1", "path": "Engine", "fmt": {"bix": 176, "len": 16, "blsb": true, "max": 53.6864, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cylinder 1"},
-    {"id": "SOUL_INJ_DUR_2", "path": "Engine", "fmt": {"bix": 192, "len": 16, "blsb": true, "max": 53.6864, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cylinder 2"},
-    {"id": "SOUL_INJ_DUR_3", "path": "Engine", "fmt": {"bix": 208, "len": 16, "blsb": true, "max": 53.6864, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cylinder 3"},
-    {"id": "SOUL_INJ_DUR_4", "path": "Engine", "fmt": {"bix": 224, "len": 16, "blsb": true, "max": 53.6864, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cylinder 4"}
+    {"id": "SOUL_INJ_DUR_1", "path": "Engine", "fmt": {"bix": 176, "len": 16, "blsb": true, "max": 53.6864, "div": 1220.7, "unit": "milliseconds" }, "name": "Injection duration cylinder 1"},
+    {"id": "SOUL_INJ_DUR_2", "path": "Engine", "fmt": {"bix": 192, "len": 16, "blsb": true, "max": 53.6864, "div": 1220.7, "unit": "milliseconds" }, "name": "Injection duration cylinder 2"},
+    {"id": "SOUL_INJ_DUR_3", "path": "Engine", "fmt": {"bix": 208, "len": 16, "blsb": true, "max": 53.6864, "div": 1220.7, "unit": "milliseconds" }, "name": "Injection duration cylinder 3"},
+    {"id": "SOUL_INJ_DUR_4", "path": "Engine", "fmt": {"bix": 224, "len": 16, "blsb": true, "max": 53.6864, "div": 1220.7, "unit": "milliseconds" }, "name": "Injection duration cylinder 4"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "E003"}, "freq": 1,
   "signals": [
@@ -357,8 +357,8 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "E004"}, "freq": 10,
   "signals": [
-    {"id": "SOUL_AUX_SOC", "path": "Battery", "fmt": {"bix": 320, "len": 8, "max": 100, "unit": "percent" }, "name": "Aux battery SOC"},
-    {"id": "SOUL_AUX_SOH", "path": "Battery", "fmt": {"bix": 328, "len": 8, "max": 100, "unit": "percent" }, "name": "Auxiliary battery state of health"}
+    {"id": "SOUL_AUX_SOC", "path": "Battery", "fmt": {"bix": 320, "len": 8, "max": 100, "nullmin": 0, "unit": "percent" }, "name": "Aux battery SOC"},
+    {"id": "SOUL_AUX_SOH", "path": "Battery", "fmt": {"bix": 328, "len": 8, "max": 100, "nullmin": 0, "unit": "percent" }, "name": "Auxiliary battery state of health"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "E005"}, "freq": 1,
   "signals": [
