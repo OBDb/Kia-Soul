@@ -1,4 +1,4 @@
-command_id: 7A0.7A8.22C00B|fc=1
+command_id: 7A0.7A8.22C00B|fc=1,f=2017-;-2013
 test_cases:
 - expected_values:
     SOUL_TP_FL: 32
