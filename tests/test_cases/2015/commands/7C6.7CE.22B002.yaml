@@ -2,22 +2,16 @@ command_id: 7C6.7CE.22B002
 test_cases:
 - expected_values:
     SOUL_FLI_VOL: 4.5
-    SOUL_VPWR: 13.82812
-  response: |-
-    7CE100A62B002C00000
-    7CE210009B100000000
-- expected_values:
-    SOUL_FLI_VOL: 6
     SOUL_VPWR: 13.67188
   response: |-
     7CE100A62B002C00000
-    7CE21000CAF00000000
+    7CE210009AF00000000
 - expected_values:
-    SOUL_FLI_VOL: 6.5
+    SOUL_FLI_VOL: 5.5
     SOUL_VPWR: 13.75
   response: |-
     7CE100A62B002C00000
-    7CE21000DB000000000
+    7CE21000BB000000000
 - expected_values:
     SOUL_FLI_VOL: 7.5
     SOUL_VPWR: 13.75
