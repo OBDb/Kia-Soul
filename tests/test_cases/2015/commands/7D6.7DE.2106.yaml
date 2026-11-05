@@ -52,6 +52,21 @@ test_cases:
     SOUL_FR_TT: 5
     SOUL_RL_TP: 0
     SOUL_RL_TT: -10
+    SOUL_RR_TP: 0
+    SOUL_RR_TT: 5
+  response: |-
+    7DE1022610600287DD6
+    7DE2100370000002879
+    7DE2275003700000026
+    7DE23FC747F521E0200
+    7DE242826B400370000
+- expected_values:
+    SOUL_FL_TP: 0
+    SOUL_FL_TT: -10
+    SOUL_FR_TP: 0
+    SOUL_FR_TT: 5
+    SOUL_RL_TP: 0
+    SOUL_RL_TT: -10
     SOUL_RR_TP: 1.87537
     SOUL_RR_TT: 33
   response: |-
